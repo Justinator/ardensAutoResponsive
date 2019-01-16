@@ -1,83 +1,3 @@
-// open menu
-$(function() {
-    $(".menuTextWrap").click(function(e){
-        $(".menu").addClass("open");
-        	e.stopPropagation();
-    });
-});
-//close menu
-$(function() {
-    $(".closeMenuButton").click(function(e){
-        	$(".menu").removeClass("open");
-    });
-});
-$(function() {
-    $(".site").click(function(e){
-    	if(!$(e.target).hasClass("menu")){
-        	$(".menu").removeClass("open");
-    	}
-    });
-});
-
-$(function() {
-  $(".menuTextWrap").click(function(e){
-    if($(".menu").hasClass("open")){
-          document.querySelector(".linkList").addEventListener("click", closeMenu);
-            $(".menu").removeClass("open");
-          }
-        });
-  });
-
-// open feedback survey
-$(function() {
-    $(".feedbackButtonWrapper").click(function(e){
-        $(".surveyWrapper").addClass("surveyOpen");
-        	e.stopPropagation();
-    });
-});
-//close feedback survey
-$(function() {
-    $(".surveyClose").click(function(e){
-        	$(".surveyWrapper").removeClass("surveyOpen");
-    });
-});
-$(function() {
-    $(".site").click(function(e){
-    	if(!$(e.target).hasClass("surveyWrapper")){
-        	$(".surveyWrapper").removeClass("surveyOpen");
-    	}
-    });
-});
-
-//highlight the current link so it shows users where they are on site
-
-$(function(){
-    var url = window.location.href;
-    var activePage = url;
-    $(".menuLink").each(function() {
-        var linkPage = this.href;
-        if (activePage == linkPage) {
-            $(this).closest("li").addClass("active");
-
-        }
-    });
-
-});
-//smooth scroll to elements in inner services nav
-
-$(document).on('click', 'a[href^="#aluminum"]', function (event) {
-
-    event.preventDefault();
-
-
-
-    $('html, body').animate({
-
-      scrollTop: $($.attr(this, 'href')).offset().top
-
-     -150}, 1000);
-
-});
 // Basic fade transition example that barba.js provides, this looks super nice already!!!
 $(function() {
   console.log('%c Justin Parsons','background: red; color: white; padding: 5px 10px;');
@@ -131,17 +51,7 @@ $(function() {
        * .done() will automatically remove from the DOM the old Container
        */
        //Remove open class from mobile menu after a link is clicked and a new page is loaded
-       Barba.Dispatcher.on('transitionCompleted', function(currentStatus, oldStatus, container) {
-         if($(".menu").hasClass("open")){
-               $(".linkList").on("click", closeMenu);
-         };
 
-         function closeMenu(){
-           $(".menu").removeClass("open");
-         };
-
-
-        });
       _this.done();
       //run scripts that should be run after content is shown
       pageCheckBefore();
@@ -161,12 +71,64 @@ Barba.Pjax.getTransition = function() {
     pageCheckBefore();
 
     function pageCheckBefore(){
-      if($(".menu").hasClass("open")){
-            document.querySelector(".linkList").addEventListener("click", closeMenu);
-      };
-
-      function closeMenu(){
-        $(".menu").removeClass("open");
-      };
+      // open feedback survey
+      $(function() {
+          $(".feedbackButtonWrapper").click(function(e){
+              $(".surveyWrapper").addClass("surveyOpen");
+              	e.stopPropagation();
+          });
+      });
+      //close feedback survey
+      $(function() {
+          $(".surveyClose").click(function(e){
+              	$(".surveyWrapper").removeClass("surveyOpen");
+          });
+      });
     }
+});
+
+// End of our Barba.js scripts
+
+// open menu
+$(function() {
+    $(".menuTextWrap").click(function(e){
+        $(".menu").addClass("open");
+        	e.stopPropagation();
+    });
+});
+
+//close menu
+$(function() {
+    $(".closeMenuButton").click(function(e){
+        	$(".menu").removeClass("open");
+    });
+});
+$(function() {
+    $(".site").click(function(e){
+    	if(!$(e.target).hasClass("menu")){
+        	$(".menu").removeClass("open");
+    	}
+    });
+});
+
+// close our sites mobile menu when a link item is clicked
+$(function() {
+    $(".linkList").click(function(e){
+        	$(".menu").removeClass("open");
+    });
+});
+
+// open feedback survey
+$(function() {
+    $(".feedbackButtonWrapper").click(function(e){
+        $(".surveyWrapper").addClass("surveyOpen");
+        	e.stopPropagation();
+    });
+});
+
+//close feedback survey
+$(function() {
+    $(".surveyClose").click(function(e){
+        	$(".surveyWrapper").removeClass("surveyOpen");
+    });
 });
