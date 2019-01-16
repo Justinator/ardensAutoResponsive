@@ -61,29 +61,12 @@
 .serviceBlockImage{
   margin-bottom: -8px;
 }
-.rellaxImage{
-  position: relative;
-  z-index: 9999;
+.oilHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/oilChangeCropped.jpg');
 }
-#rellaxImage1{
-  @include breakpoint(smallScreen){
-    top: 1750px;
-  }
-  @include breakpoint(largeMobileScreen){
-    top: 600px
-  }
-  @include breakpoint(tabletScreen){
-    top: 400px;
-  }
+.brakeHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/brakeRepairServicesCropped.jpg');
 }
-#rellaxImage2{
-  @include breakpoint(smallScreen){
-    top: 2300px;
-  }
-  @include breakpoint(largeMobileScreen){
-    top: 925px;
-  }
-  @include breakpoint(tabletScreen){
-    top: 550px;
-  }
+.ACHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/airConditioningRepairServicesCropped.jpg');
 }

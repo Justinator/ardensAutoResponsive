@@ -135,11 +135,11 @@ get_header();
 
 							<div class="col30 zoomContainerWrapper">
 
-								<a class="zoomContainer" href="/ardens/auto-repair-services/oil-changes/">
+								<a class="zoomContainer" href="/auto-repair-services/oil-changes/">
 
 									<div class="zoomContainer">
 
-										<img class="image zoomImage" src="/ardens/assets/scss/wp-content/uploads/2019/01/oilChangeServicesMedium.jpg">
+										<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/oilChangeServicesMedium.jpg">
 
 									</div>
 
@@ -151,11 +151,11 @@ get_header();
 
 							<div class="col30 zoomContainerWrapper">
 
-								<a class="zoomContainer" href="/ardens/auto-repair-services/brake-repair/">
+								<a class="zoomContainer" href="/auto-repair-services/brake-repair/">
 
 									<div class="zoomContainer">
 
-										<img class="image zoomImage" src="/ardens/assets/scss/wp-content/uploads/2019/01/brakeRepairServicesMedium.jpg">
+										<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/brakeRepairServicesMedium.jpg">
 
 									</div>
 
@@ -167,11 +167,11 @@ get_header();
 
 							<div class="col30 zoomContainerWrapper hiddenMobile">
 
-								<a class="zoomContainer" href="/ardens/auto-repair-services/air-conditioning/">
+								<a class="zoomContainer" href="/auto-repair-services/air-conditioning/">
 
 									<div class="zoomContainer">
 
-										<img class="image zoomImage" src="/ardens/assets/scss/wp-content/uploads/2019/01/ACRepairServices.jpg">
+										<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/ACRepairServicesMoreSquare.jpg">
 
 									</div>
 
@@ -187,11 +187,11 @@ get_header();
 
 						<div class="col30 zoomContainerWrapper">
 
-							<a class="zoomContainer" href="/ardens/auto-repair-services/tires/">
+							<a class="zoomContainer" href="/auto-repair-services/tires/">
 
 								<div class="zoomContainer">
 
-									<img class="image zoomImage" src="/ardens/assets/scss/wp-content/uploads/2019/01/tireRepairServicesMedium.jpg">
+									<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/tireRepairServicesMedium.jpg">
 
 								</div>
 
@@ -203,11 +203,11 @@ get_header();
 
 						<div class="col30 zoomContainerWrapper">
 
-							<a class="zoomContainer" href="/ardens/auto-repair-services/exhaust/">
+							<a class="zoomContainer" href="/auto-repair-services/exhaust/">
 
 								<div class="zoomContainer">
 
-									<img class="image zoomImage" src="/ardens/assets/scss/wp-content/uploads/2019/01/mufflerAndExhaustRepairServicesMedium.jpg">
+									<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/mufflerAndExhaustRepairServicesMedium.jpg">
 
 								</div>
 
@@ -219,11 +219,11 @@ get_header();
 
 						<div class="col30 zoomContainerWrapper hiddenMobile">
 
-							<a class="zoomContainer" href="/ardens/auto-repair-services/preventative-maintenance/">
+							<a class="zoomContainer" href="/auto-repair-services/preventative-maintenance/">
 
 								<div class="zoomContainer">
 
-									<img class="image zoomImage" src="/ardens/assets/scss/wp-content/uploads/2019/01/generalAutoMaintenanceMedium.jpg">
+									<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/generalAutoMaintenanceMedium.jpg">
 
 								</div>
 
@@ -239,11 +239,11 @@ get_header();
 
 							<div class="col30 zoomContainerWrapper">
 
-								<a class="zoomContainer" href="/ardens/auto-repair-services/air-conditioning/">
+								<a class="zoomContainer" href="/auto-repair-services/air-conditioning/">
 
 									<div class="zoomContainer">
 
-										<img class="image zoomImage" src="/ardens/assets/scss/wp-content/uploads/2019/01/ACRepairServices.jpg">
+										<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/ACRepairServices.jpg">
 
 									</div>
 
@@ -255,11 +255,11 @@ get_header();
 
 							<div class="col30 zoomContainerWrapper">
 
-								<a class="zoomContainer" href="/ardens/auto-repair-services/preventative-maintenance/">
+								<a class="zoomContainer" href="/auto-repair-services/preventative-maintenance/">
 
 									<div class="zoomContainer">
 
-										<img class="image zoomImage" src="/ardens/assets/scss/wp-content/uploads/2019/01/generalAutoMaintenanceMedium.jpg">
+										<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/generalAutoMaintenanceMedium.jpg">
 
 									</div>
 
@@ -285,9 +285,9 @@ get_header();
 
 									<div class="flex-container centerAlignedContainer">
 
-								<div id="rellaxImage1" class="col30 rellax rellaxImage" data-rellax-speed="3" data-rellax-zindex="5">
+								<div class="col30">
 
-									<img src="/ardens/assets/scss/wp-content/uploads/2019/01/mazdaEnginePull0.1MediumSquare.jpg" class="image serviceBlockImage">
+									<img src="/assets/scss/wp-content/uploads/2019/01/mazdaEnginePull0.1MediumSquare.jpg" class="image serviceBlockImage">
 
 								</div>
 
@@ -411,9 +411,9 @@ get_header();
 
 										</div>
 
-										<div id="rellaxImage2" class="col30 rellax rellaxImage" data-rellax-speed="3" data-rellax-zindex="5">
+										<div class="col30">
 
-											<img src="/ardens/assets/scss/wp-content/uploads/2019/01/jeepUpOnLiftSquare.jpg" class="image serviceBlockImage">
+											<img src="/assets/scss/wp-content/uploads/2019/01/jeepUpOnLiftSquare.jpg" class="image serviceBlockImage">
 
 										</div>
 
@@ -474,7 +474,7 @@ get_header();
 
 										<div class="centeredButton">
 
-											<a href="https://expressrecycling.biz/contact/"><button class="whiteButton">Contact Arden's</button></a>
+											<a href="/contact/"><button class="whiteButton">Contact Arden's</button></a>
 
 										</div>
 
@@ -561,12 +561,6 @@ get_header();
 </div>
 
 </div>
-
-<!-- Initiate Rellax, Rellax Engaged-->
-<script>
-	// Accepts any class name
-	var rellax = new Rellax('.rellax');
-</script>
 
 <?php
 

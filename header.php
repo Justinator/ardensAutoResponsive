@@ -130,7 +130,7 @@
 
 				<div class="navWidth menuLinkWrap">
 
-						<a href="/ardens/"><img src="/assets/scss/wp-content/uploads/2019/01/ArdensLogoSmall.png" class="siteLogo" ></a>
+						<a href="http://testing.ardensauto.com"><img src="/assets/scss/wp-content/uploads/2019/01/ArdensLogoSmall.png" class="siteLogo" ></a>
 
 						<ul class="linkList2">
 

@@ -12,7 +12,7 @@
 	list-style-type: none;
 	border-bottom: 1px solid $primaryColor;
 	background-color: #fbf8f5;
-	background-image: url("/ardens/assets/scss/wp-content/uploads/2019/01/blizzard.png");
+	background-image: url("/assets/scss/wp-content/uploads/2019/01/blizzard.png");
     @include breakpoint(laptopScreen){
       flex-direction: row;
 		  height: 75px;
@@ -27,7 +27,7 @@
 	padding: 0 0 50px 0;
 	margin: 0 auto;
 	background-color: #fbf8f5;
-	background-image: url("/ardens/assets/scss/wp-content/uploads/2019/01/blizzard.png");
+	background-image: url("/assets/scss/wp-content/uploads/2019/01/blizzard.png");
 }
 .footerLogo{
 	margin-top: 25px;

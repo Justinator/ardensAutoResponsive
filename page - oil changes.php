@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Home
+ * Template Name: Oil Changes
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -18,13 +18,13 @@ get_header();
 
 	<div class="barba-container">
 
-		<div id="primary" class="content-area">
+		<div class="content-area">
 
-			<main id="main" class="site-main">
+			<main class="site-main">
 
-				<section id="hero">
+				<section id="servicesHero">
 
-					<div class="hero shopHero">
+					<div class="hero oilHero">
 
 						<div class="heroOverlay">
 
@@ -34,7 +34,7 @@ get_header();
 
 									<div class="heroHeading">
 
-										<h1 class="whiteText">Full-Service Auto Repair Shop, Serving Oshkosh, WI, Since 1959</h1>
+										<h1 class="whiteText">Oil Change Services in Oshkosh, WI</h1>
 
 									</div>
 
@@ -48,92 +48,22 @@ get_header();
 
 				</section>
 
-				<section id="pageContent">
+				<section id="servicePageContent">
 
 				<div>
 
-				<section id ="ardensIntro">
+				<section id ="servicesIntro">
 
-					<div class="navWidth flex-container centerAlignedContainer">
+					<div class="pageWidth flex-container">
 
-						<div class="col50">
+						<div class="">
 
 							<div class="blockText">
 
-								<h2>About Arden's</h2>
-
 								<p>
-									Arden's Automotive Hospital has been a family owned and operated auto repair shop since 1959. At Arden's, you’ll experience our great
-									customer service and honest opinion.
+									At Arden's Automotive Hospital we offer you a complete range of auto repair services to help you keep your vehicle in top running condition. We pride
+									ourselves in taking the extra time to properly diagnose your car's issues. Saving you money and getting you back on the road faster.
 								</p>
-
-								<p>
-									We know you need to get the job done quickly so you get your car back on the road. But most importantly, you need the job done right.
-									At Arden’s, we pride ourselves in taking the extra time to properly diagnose your car's issues. Saving you money and getting you back
-									on the road faster.
-								</p>
-
-								<a href="/about/"><button class="redButton">Learn More About Arden's</button></a>
-
-							</div>
-
-						</div>
-
-						<div class="col50">
-
-							<img src="/assets/scss/wp-content/uploads/2019/01/ardensOldTruck.jpg" class="image">
-
-						</div>
-
-					</div>
-
-				</section>
-
-				<section id="ardensBenefits" class="paddedSection">
-
-					<div class="flex-container cardWrap">
-
-						<div class="col30">
-
-							<div class="raisedTextBox">
-
-								<div class="textWrap">
-
-									<h3 class="centerText">Trustworthy and Reliable</h3>
-
-									<p>No matter how big or small the issue, you’ll find a professional and honest opinion for all your auto repairs.</p>
-
-								</div>
-
-							</div>
-
-						</div>
-						<div class="col30">
-
-							<div class="raisedTextBox">
-
-								<div class="textWrap">
-
-									<h3 class="centerText">Family Oriented</h3>
-
-									<p>You’ll always be treated as a part of our family. Now in our third generation of ownership, family values run true here at Arden’s.</p>
-
-								</div>
-
-							</div>
-
-						</div>
-						<div class="col30">
-
-							<div class="raisedTextBox">
-
-								<div class="textWrap">
-
-									<h3 class="centerText">Fair</h3>
-
-									<p>Your car is important to you so it’s important to us as well, at Arden’s you’ll always get a fair price to get your car back on the road.</p>
-
-								</div>
 
 							</div>
 
@@ -143,19 +73,7 @@ get_header();
 
 				</section>
 
-				<section id="services">
-
-					<div class="pageWidth">
-
-						<h2 class="centerText">Auto Maintenance Is Hard, Right?</h2>
-
-						<p id="serviceHook">
-							Is your car making that weird noise again? Not sure what’s going on or how to figure it out? With experience from oil changes, brakes, and
-							tires to troubleshooting and diagnosing engine failures, at Arden’s you’ll find an expert and fair diagnosis and repair for all your
-							car’s issues.
-						</p>
-
-					</div>
+				<section id="servicesWrap">
 
 					<div class="navWidth servicescontent">
 
@@ -263,6 +181,42 @@ get_header();
 
 						</div>
 
+						<div class="serviceFlexContainer tabletRow">
+
+							<div class="col30 zoomContainerWrapper">
+
+								<a class="zoomContainer" href="/auto-repair-services/air-conditioning/">
+
+									<div class="zoomContainer">
+
+										<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/ACRepairServices.jpg">
+
+									</div>
+
+									<h4 class="centerText">Air Conditioning</h4>
+
+								</a>
+
+							</div>
+
+							<div class="col30 zoomContainerWrapper">
+
+								<a class="zoomContainer" href="/auto-repair-services/preventative-maintenance/">
+
+									<div class="zoomContainer">
+
+										<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/generalAutoMaintenanceMedium.jpg">
+
+									</div>
+
+									<h4 class="centerText">Preventative Maintenance</h4>
+
+								</a>
+
+							</div>
+
+						</div>
+
 						<div class="centerButton">
 
 							<a href="/auto-repair-services/"><button id="servicesButton" class="redButton">View all auto repair services</button></a>
@@ -281,12 +235,12 @@ get_header();
 
 										<p>
 
-											" This a great family owned business that prides itself on honesty and trustworthiness. They really make you feel a part of the family when you're there. Prices
-											are always fair and you can trust that the work being done is of high quality. "
+											" Excellent work and at a fair price! I had a lift kit installed in my truck, and Alex did an excellent job! Very happy customer! "
 
 											<br><br>
 
-											-Kailey Lemon
+											-Eric Wallace
+
 										</p>
 
 									</div>
@@ -297,94 +251,9 @@ get_header();
 
 						</div>
 
-					</div>
-
 				</section>
 
-				<section id="featuredProjects">
-
-					<div class="fullWidth whiteBlock">
-
-						<div class="navWidth paddedSection">
-
-							<div class="fullWidth">
-
-									<h3 class="centerText">Featured Auto Repair Projects</h3>
-
-							</div>
-
-							<div class="fullWidth serviceFlexContainer">
-
-								<div class="col40 zoomContainerWrapper">
-
-										<a class="zoomContainerLarge" href="/projects/jeep-cherokee/">
-
-											<div class="zoomContainerLarge">
-
-												<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped.jpg">
-
-											</div>
-
-											<h4 class="centerText">Jeep Cherokee</h4>
-
-										</a>
-
-								</div>
-
-								<div class="col40 zoomContainerWrapper">
-
-										<a class="zoomContainerLarge" href="/projects/hundai-tiburon/">
-
-											<div class="zoomContainerLarge">
-
-												<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/engineTiburonCropped.jpg">
-
-											</div>
-
-											<h4 class="centerText">Hyundai Tiburon</h4>
-
-										</a>
-
-								</div>
-
-							</div>
-
-							<div class="fullWidth flex-container centerAlignedContainer">
-
-								<div class="col50">
-
-									<div class="blockTextSecondary">
-
-										<h3>2012 Mazdaspeed3</h3>
-
-										<p>
-
-											Fast cars are fun but, can end up taking a lot of abuse while being pushed to their limit. Which was exactly the case for this Mazdaspeed3’s engine
-											that was in desperate need of attention.
-
-										</p>
-
-										<a href="/projects/mazdaspeed3/"><button class="redButton">View the full project</button></a>
-
-									</div>
-
-								</div>
-
-								<div class="col50">
-
-									<img src="/assets/scss/wp-content/uploads/2019/01/mazdaEnginePull0.1Medium.jpg" class="image">
-
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
-
-				</section>
-
-				<section id="homepageCTA">
+				<section class="CTA">
 
 					<div class="siteCTAWrap">
 
@@ -403,7 +272,7 @@ get_header();
 
 										<div class="centeredButton">
 
-											<a href="/contact/"><button class="whiteButton">Contact Arden's</button></a>
+											<a href="https://expressrecycling.biz/contact/"><button class="whiteButton">Contact Arden's</button></a>
 
 										</div>
 
@@ -449,7 +318,7 @@ get_header();
 
 				</section>
 
-				<section class="feedback">
+				<section id="feedback">
 
 					<div class="feedbackButtonWrapper">
 
@@ -488,6 +357,7 @@ get_header();
 	</div>
 
 </div>
+
 </div>
 
 <?php
