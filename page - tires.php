@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Oil Changes
+ * Template Name: Tires
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -24,17 +24,17 @@ get_header();
 
 				<section id="servicesHero">
 
-					<div class="smallHero oilHero">
+					<div class="smallHero tireHero">
 
 						<div class="smallHeroOverlay">
 
 							<div class="heroHeadingWrap fullWidth">
 
-								<div class="centerText homeHeading">
+								<div class="centerText homeHeading tireHeading">
 
 									<div class="heroHeading">
 
-										<h1 class="whiteText">Oil Change Services in Oshkosh, WI</h1>
+										<h1 class="whiteText">Tire Service in Oshkosh, WI</h1>
 
 									</div>
 

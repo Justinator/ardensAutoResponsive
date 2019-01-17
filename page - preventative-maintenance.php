@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Oil Changes
+ * Template Name: Preventative Maintenance
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -24,7 +24,7 @@ get_header();
 
 				<section id="servicesHero">
 
-					<div class="smallHero oilHero">
+					<div class="smallHero maintenanceHero">
 
 						<div class="smallHeroOverlay">
 
@@ -34,7 +34,7 @@ get_header();
 
 									<div class="heroHeading">
 
-										<h1 class="whiteText">Oil Change Services in Oshkosh, WI</h1>
+										<h1 class="whiteText">Preventative Maintenance Services in Oshkosh, WI</h1>
 
 									</div>
 

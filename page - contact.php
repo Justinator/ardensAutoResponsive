@@ -30,19 +30,15 @@ get_header();
 
 							<div class="heroHeadingWrap fullWidth">
 
-								<div class="col50">
-
 									<div class="homeHeading">
 
 										<div class="heroHeading">
 
-											<h1 class="whiteText">Contact Us</h1>
+											<h1 class="whiteText">Contact Arden's Automotive Hospital</h1>
 
 										</div>
 
 									</div>
-
-								</div>
 
 							</div>
 
@@ -59,8 +55,6 @@ get_header();
 						<div class="pageWidth flex-container">
 
 							<div id="formWrap" class="col60">
-
-								<h4 class="redText">Contact Arden's Automotive Hospital</h4>
 
 								<p>
 								Have some questions that you still need help with? We're here to help.

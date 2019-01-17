@@ -202,6 +202,34 @@
     height: 70vh;
   }
 }
+.smallHero{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    @include breakpoint(smallScreen){
+      height: 40vh;
+    }
+    @include breakpoint(largeMobileScreen){
+      height: 50vh
+    }
+	}
+.smallHeroOverlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  content: "";
+  background: rgba(0, 0, 0, .3);
+  @include breakpoint(smallScreen){
+    height: 40vh;
+  }
+  @include breakpoint(largeMobileScreen){
+    height: 50vh
+  }
+}
 .flex-container{
 	display: flex;
 	flex-direction: row;

@@ -216,6 +216,34 @@ Template: ardensAutoResponsive
     .heroOverlay {
       height: 70vh; } }
 
+.smallHero {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media (max-width: 600px) {
+    .smallHero {
+      height: 40vh; } }
+  @media (min-width: 600px) {
+    .smallHero {
+      height: 50vh; } }
+
+.smallHeroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  content: "";
+  background: rgba(0, 0, 0, 0.3); }
+  @media (max-width: 600px) {
+    .smallHeroOverlay {
+      height: 40vh; } }
+  @media (min-width: 600px) {
+    .smallHeroOverlay {
+      height: 50vh; } }
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -1636,11 +1664,37 @@ template {
   background-image: url("/assets/scss/wp-content/uploads/2019/01/brakeRepairServicesCropped.jpg"); }
 
 .ACHero {
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/airConditioningRepairServicesCropped.jpg"); }
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/airConditioningRepairServicesCropped2.jpg"); }
+
+.tireHero {
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/tireService.jpg"); }
+
+.exhaustHero {
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/exhaustRepairServices2Cropped.jpg"); }
+
+.maintenanceHero {
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/preventativeMaintenance.jpg"); }
+
+@media (max-width: 600px) {
+  .tireHeading {
+    bottom: -185px !important; } }
+@media (min-width: 600px) {
+  .tireHeading {
+    bottom: -150px !important; } }
+@media (min-width: 768px) {
+  .tireHeading {
+    bottom: -75px !important; } }
 
 /* 13.0 Contact Page stylings -------------------------------------------*/
-#contactContent {
-  margin-top: 150px !important; }
+@media (max-width: 600px) {
+  #contactContent {
+    margin-top: 250px !important; } }
+@media (min-width: 600px) {
+  #contactContent {
+    margin-top: 250px !important; } }
+@media (min-width: 768px) {
+  #contactContent {
+    margin-top: 150px !important; } }
 
 .smallMapWrapper {
   padding: 20px; }
@@ -1664,5 +1718,59 @@ template {
 
 #fld_7683514_1 {
   height: 100px; }
+
+/* 14.0 Promotions -------------------------------------------*/
+@media (max-width: 600px) {
+  #promotionsContent {
+    margin-top: 150px; } }
+@media (min-width: 600px) {
+  #promotionsContent {
+    margin-top: 150px; } }
+@media (min-width: 768px) {
+  #promotionsContent {
+    margin-top: 50px; } }
+
+.couponBox {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border: 3px dashed #232323; }
+  @media (max-width: 600px) {
+    .couponBox {
+      margin: 25px 0 25px 0; } }
+  @media (min-width: 600px) {
+    .couponBox {
+      margin: 25px 0 25px 0; } }
+  @media (min-width: 992px) {
+    .couponBox {
+      margin: 0 25px 0 25px; } }
+
+.terms {
+  font-size: 10px; }
+
+.shortHeading {
+  border-radius: 10px;
+  background-color: rgba(201, 43, 44, 0.9);
+  position: absolute; }
+  @media (max-width: 600px) {
+    .shortHeading {
+      width: 100%;
+      border-radius: 0;
+      background-color: #c92b2c;
+      bottom: -140px; } }
+  @media (min-width: 600px) {
+    .shortHeading {
+      width: 100%;
+      border-radius: 0;
+      background-color: #c92b2c;
+      bottom: -140px; } }
+  @media (min-width: 768px) {
+    .shortHeading {
+      width: 80%;
+      border-radius: 10px;
+      background-color: rgba(201, 43, 44, 0.9);
+      bottom: -75px; } }
+  @media (min-width: 1250px) {
+    .shortHeading {
+      width: 60%; } }
 
 /*# sourceMappingURL=style.css.map */

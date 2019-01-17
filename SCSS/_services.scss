@@ -68,5 +68,25 @@
   background-image: url('/assets/scss/wp-content/uploads/2019/01/brakeRepairServicesCropped.jpg');
 }
 .ACHero{
-  background-image: url('/assets/scss/wp-content/uploads/2019/01/airConditioningRepairServicesCropped.jpg');
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/airConditioningRepairServicesCropped2.jpg');
+}
+.tireHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/tireService.jpg');
+}
+.exhaustHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/exhaustRepairServices2Cropped.jpg');
+}
+.maintenanceHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/preventativeMaintenance.jpg');
+}
+.tireHeading{
+  @include breakpoint(smallScreen){
+    bottom: -185px !important;
+  }
+  @include breakpoint(largeMobileScreen){
+    bottom: -150px !important;
+  }
+  @include breakpoint(tabletScreen){
+    bottom: -75px !important;
+  }
 }

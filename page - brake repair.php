@@ -24,9 +24,9 @@ get_header();
 
 				<section id="servicesHero">
 
-					<div class="hero brakeHero">
+					<div class="smallHero brakeHero">
 
-						<div class="heroOverlay">
+						<div class="smallHeroOverlay">
 
 							<div class="heroHeadingWrap fullWidth">
 
