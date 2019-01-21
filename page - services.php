@@ -30,7 +30,7 @@ get_header();
 
 							<div class="heroHeadingWrap fullWidth">
 
-								<div class="centerText homeHeading">
+								<div class="centerText homeHeading serviceHeading">
 
 									<div class="heroHeading">
 
@@ -61,8 +61,14 @@ get_header();
 							<div class="blockText">
 
 								<p>
-									At Arden's Automotive Hospital we offer you a complete range of auto repair services to help you keep your vehicle in top running condition. We pride
-									ourselves in taking the extra time to properly diagnose your car's issues. Saving you money and getting you back on the road faster.
+									Modern vehicles are more complicated than ever and all parts work together to make your vehicle more efficient and safer than ever before. At Arden's
+									Automotive Hospital we offer a complete range of auto repair services to fix all your cars needs and keep your vehicle in top running condition. No matter what
+									kind of auto repair or maintenance need you have, Arden’s can help.
+								</p>
+
+								<p>
+									We pride ourselves in taking the extra time to properly diagnose your car's issues. Helping you make a more educated decision and extend the life of your car.
+									Does your vehicle need attention right away? Schedule an appointment or call Arden’s today at <a href="tel:(920)203-3694" class="plainLink">(920) 203-3694</a>.
 								</p>
 
 							</div>
@@ -435,11 +441,12 @@ get_header();
 
 										<p>
 
-											" Excellent work and at a fair price! I had a lift kit installed in my truck, and Alex did an excellent job! Very happy customer! "
+											" Got a transfer case installed and am very satisfied with the service and job that was done. Answered any questions I had and very knowledgeable. Great
+											prices and will be back again for future repairs! Thanks so much! "
 
 											<br><br>
 
-											-Eric Wallace
+											-Christine Marie
 
 										</p>
 
@@ -508,7 +515,7 @@ get_header();
 
 									Oshkosh, WI 54902</p></a>
 
-									<a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a>
+									<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
 
 									<br>
 

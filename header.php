@@ -23,6 +23,8 @@
 
 	<link href="/assets/scss/wp-content/themes/ardensAutoResponsiveChild/Assets/webfonts/fontawesome-all.css" rel="stylesheet">
 
+	<link href="/assets/scss/wp-content/themes/ardensAutoResponsiveChild/CSS/formalize.css" rel="stylesheet">
+
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
 
 	<?php wp_head(); ?>
@@ -118,7 +120,7 @@
 
 				<i class="fas fa-phone whiteIcon"></i>
 
-				<a class="secondaryLink" href="tel:(920)203-3694">(920)203-3694</a>
+				<a class="secondaryLink" href="tel:(920)203-3694">(920) 203-3694</a>
 
 			</div>
 

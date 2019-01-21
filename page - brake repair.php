@@ -30,7 +30,7 @@ get_header();
 
 							<div class="heroHeadingWrap fullWidth">
 
-								<div class="centerText homeHeading">
+								<div class="centerText homeHeading serviceHeading">
 
 									<div class="heroHeading">
 
@@ -48,11 +48,11 @@ get_header();
 
 				</section>
 
-				<section id="servicePageContent">
+				<section class="servicesPageContent">
 
 				<div>
 
-				<section id ="servicesIntro">
+				<section id ="brakeOverview">
 
 					<div class="pageWidth flex-container">
 
@@ -61,8 +61,43 @@ get_header();
 							<div class="blockText">
 
 								<p>
-									At Arden's Automotive Hospital we offer you a complete range of auto repair services to help you keep your vehicle in top running condition. We pride
-									ourselves in taking the extra time to properly diagnose your car's issues. Saving you money and getting you back on the road faster.
+									Your brakes are one of the most important safety features of your car. Inspecting your brakes at least twice a year for wear and damage can protect you and
+									your passengers. Brake pad problems can usually be identified by squealing brakes. But if you’re hearing grinding metal on metal sound when braking, you’ve
+									waited too long.
+								</p>
+
+								<p>
+
+									Other signs your brakes need to be replaced:
+
+								</p>
+
+								<ul>
+
+									<li>Your vehicle is pulling to one side when applying the brakes</li>
+									<li>Bad vibrations when braking</li>
+									<li>Deep grooves or uneven wear in your rotors</li>
+
+								</ul>
+
+								<p>
+
+									At Arden’s, there isn’t a brake repair or replacement service we don’t provide. Our brake services include:
+
+								</p>
+
+								<ul>
+
+									<li>Full brake and caliper repair and replacement</li>
+									<li>Brake pad replacement</li>
+									<li>Brake line repair and replacement</li>
+									<li>Parking brake services and repair</li>
+
+								</ul>
+
+								<p>
+									By maintaining your brakes regularly, you can greatly reduce problems and ensure you, your passengers, and others on the road are safe. Call Arden’s
+									at <a href="tel:(920) 203-3694" class="plainLink">(920) 203-3694</a> to get started with a brake inspection today.
 								</p>
 
 							</div>
@@ -72,6 +107,34 @@ get_header();
 					</div>
 
 				</section>
+
+				<div class="pageWidth smallPaddedSection">
+
+					<div class="col60 centeredContainer">
+
+						<div class="raisedTextBox">
+
+							<div class="textWrap">
+
+								<h3>Client Feedback</h3>
+
+								<p>
+
+									" Got my brakes done on my car today the price was very good and the service was very great, would highly recommend to anyone "
+
+									<br><br>
+
+									-Tyler Honeck
+
+								</p>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
 
 				<section id="servicesWrap">
 
@@ -223,34 +286,6 @@ get_header();
 
 						</div>
 
-						<div class="fullWidth smallPaddedSection">
-
-							<div class="col60 centeredContainer">
-
-								<div class="raisedTextBox">
-
-									<div class="textWrap">
-
-										<h3>Client Feedback</h3>
-
-										<p>
-
-											" Excellent work and at a fair price! I had a lift kit installed in my truck, and Alex did an excellent job! Very happy customer! "
-
-											<br><br>
-
-											-Eric Wallace
-
-										</p>
-
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-
 				</section>
 
 				<section class="CTA">
@@ -272,7 +307,7 @@ get_header();
 
 										<div class="centeredButton">
 
-											<a href="https://expressrecycling.biz/contact/"><button class="whiteButton">Contact Arden's</button></a>
+											<a href="/contact/"><button class="whiteButton">Contact Arden's</button></a>
 
 										</div>
 
@@ -306,7 +341,7 @@ get_header();
 
 									Oshkosh, WI 54902</p></a>
 
-									<a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a>
+									<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
 
 									<br>
 

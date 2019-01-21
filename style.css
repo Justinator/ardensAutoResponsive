@@ -456,7 +456,7 @@ nav {
   position: absolute;
   top: 0;
   z-index: 99999;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   background-color: #fbf8f5;
   transform: translateX(-100%);
@@ -712,10 +712,12 @@ nav {
     transition: .3s ease all;
     bottom: 12px;
     left: 0; }
-  @media (max-width: 600px) {
-    .footerLink {
-      bottom: 0;
-      width: 0%; } }
+    @media (max-width: 600px) {
+      .footerLink:after {
+        visibility: hidden; } }
+    @media (min-width: 768px) {
+      .footerLink:after {
+        visibility: visible; } }
   .footerLink:hover:after {
     width: 3px;
     height: 50%;
@@ -822,25 +824,22 @@ h1, h2, h3, h4, h5, h6, p {
   margin-block-start: 0; }
 
 h1 {
-  font-size: 2em; }
-  @media (min-width: 600px) {
-    h1 {
-      font-size: 2.488em; } }
+  font-size: 1.7em; }
 
 h2 {
-  font-size: 2.074em; }
+  font-size: 1.6em; }
 
 h3 {
-  font-size: 1.728em; }
+  font-size: 1.5em; }
 
 h4 {
   font-size: 1.4em; }
 
 h5 {
-  font-size: 1.2em; }
+  font-size: 1.3em; }
 
 h6 {
-  font-size: 0.707em; }
+  font-size: 1em; }
 
 .whiteText {
   color: #FFFFFF; }
@@ -967,12 +966,31 @@ body {
   background: rgba(240, 0, 0, 0.5); }
 
 .plainLink {
+  position: relative;
   text-decoration: none;
-  color: #F00000;
+  color: #c92b2c;
   transition: .3s ease all; }
-  .plainLink:hover {
-    color: #1D1D1D;
+  .plainLink:before {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    content: "";
+    height: 2px;
+    width: 100%;
+    opacity: 0;
+    background: #c92b2c;
     transition: .3s ease all; }
+  .plainLink:hover {
+    color: #8a1e1e;
+    transition: .3s ease all; }
+    .plainLink:hover:before {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      content: "";
+      opacity: 1;
+      background: #8a1e1e;
+      transition: .3s ease all; }
 
 /*9.0 Icon Styling -------------------------------------------*/
 .whiteIcon {
@@ -1255,7 +1273,7 @@ body {
 
 .feedbackButtonWrapper {
   position: fixed;
-  bottom: 200px;
+  bottom: 100px;
   right: -70px;
   z-index: 9999;
   transform: rotate(-90deg); }
@@ -1291,7 +1309,11 @@ body {
   transform: translateX(0);
   transition: .3s ease all; }
 
-.caldera-grid label {
+#fld_1177625Label {
+  font-size: 14px;
+  color: #FFFFFF !important; }
+
+#fld_4412757Label {
   font-size: 14px;
   color: #FFFFFF !important; }
 
@@ -1324,7 +1346,6 @@ body {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
   margin: 0.67em 0; }
 
 /* Grouping content
@@ -1602,14 +1623,37 @@ template {
   background-image: url("/assets/scss/wp-content/uploads/2019/01/transmissionWorkCroppedLarge.jpg"); }
 
 @media (max-width: 600px) {
+  .serviceHeading {
+    bottom: -160px !important; } }
+@media (min-width: 600px) {
+  .serviceHeading {
+    bottom: -130px; } }
+@media (min-width: 768px) {
+  .serviceHeading {
+    bottom: -55px; } }
+@media (min-width: 1250px) {
+  .serviceHeading {
+    width: 60%; } }
+
+@media (max-width: 600px) {
   #servicesIntro {
-    margin-top: 300px; } }
+    margin-top: 200px; } }
 @media (min-width: 600px) {
   #servicesIntro {
-    margin-top: 350px; } }
+    margin-top: 150px; } }
 @media (min-width: 768px) {
   #servicesIntro {
+    margin-top: 75px; } }
+
+@media (max-width: 600px) {
+  .servicesPageContent {
+    margin-top: 200px; } }
+@media (min-width: 600px) {
+  .servicesPageContent {
     margin-top: 150px; } }
+@media (min-width: 768px) {
+  .servicesPageContent {
+    margin-top: 75px; } }
 
 @media (max-width: 600px) {
   .tabletRow {
@@ -1696,6 +1740,16 @@ template {
   #contactContent {
     margin-top: 150px !important; } }
 
+@media (max-width: 600px) {
+  #contactHeading {
+    bottom: -160px !important; } }
+@media (min-width: 600px) {
+  #contactHeading {
+    bottom: -130px !important; } }
+@media (min-width: 768px) {
+  #contactHeading {
+    bottom: -55px !important; } }
+
 .smallMapWrapper {
   padding: 20px; }
 
@@ -1714,7 +1768,12 @@ template {
   border-bottom: 2px solid #fff;
   transition: .3s ease all;
   border-radius: 5px;
-  box-shadow: 2px 2px 10px rgba(42, 42, 42, 0.4); }
+  box-shadow: 2px 2px 10px rgba(42, 42, 42, 0.4) !important;
+  -webkit-box-shadow: 2px 2px 10px rgba(42, 42, 42, 0.4) !important;
+  -moz-box-shadow: 2px 2px 10px rgba(42, 42, 42, 0.4) !important; }
+
+.caldera-grid .form-control:focus {
+  border-color: #c92b2c !important; }
 
 #fld_7683514_1 {
   height: 100px; }
@@ -1729,6 +1788,9 @@ template {
 @media (min-width: 768px) {
   #promotionsContent {
     margin-top: 50px; } }
+
+#promotionsRow2 {
+  margin-top: 25px; }
 
 .couponBox {
   box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.3);
@@ -1756,19 +1818,19 @@ template {
       width: 100%;
       border-radius: 0;
       background-color: #c92b2c;
-      bottom: -140px; } }
+      bottom: -120px; } }
   @media (min-width: 600px) {
     .shortHeading {
       width: 100%;
       border-radius: 0;
       background-color: #c92b2c;
-      bottom: -140px; } }
+      bottom: -130px; } }
   @media (min-width: 768px) {
     .shortHeading {
       width: 80%;
       border-radius: 10px;
       background-color: rgba(201, 43, 44, 0.9);
-      bottom: -75px; } }
+      bottom: -55px; } }
   @media (min-width: 1250px) {
     .shortHeading {
       width: 60%; } }

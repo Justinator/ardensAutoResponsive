@@ -7,8 +7,19 @@
     margin-top: 250px !important
   }
   @include breakpoint(tabletScreen){
-    margin-top: 150px !important;  
+    margin-top: 150px !important;
   }
+}
+#contactHeading{
+  @include breakpoint(smallScreen){
+		bottom: -160px !important;
+	}
+	@include breakpoint(largeMobileScreen){
+		bottom: -130px !important;
+	}
+	@include breakpoint(tabletScreen){
+		bottom: -55px !important;
+	}
 }
 .smallMapWrapper{
   padding: 20px;
@@ -28,7 +39,12 @@
   border-bottom: 2px solid #fff;
   transition: .3s ease all;
   border-radius: 5px;
-  box-shadow: 2px 2px 10px rgba(42, 42, 42, 0.4);
+  box-shadow: 2px 2px 10px rgba(42, 42, 42, 0.4) !important;
+  -webkit-box-shadow: 2px 2px 10px rgba(42, 42, 42, 0.4) !important;
+  -moz-box-shadow: 2px 2px 10px rgba(42, 42, 42, 0.4) !important;
+}
+.caldera-grid .form-control:focus{
+  border-color: $primaryColor !important;
 }
 #fld_7683514_1{
   height: 100px;

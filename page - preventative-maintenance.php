@@ -30,7 +30,7 @@ get_header();
 
 							<div class="heroHeadingWrap fullWidth">
 
-								<div class="centerText homeHeading">
+								<div class="centerText homeHeading serviceHeading">
 
 									<div class="heroHeading">
 
@@ -48,11 +48,11 @@ get_header();
 
 				</section>
 
-				<section id="servicePageContent">
+				<section class="servicesPageContent">
 
 				<div>
 
-				<section id ="servicesIntro">
+				<section id ="PreventativeOverview">
 
 					<div class="pageWidth flex-container">
 
@@ -61,8 +61,35 @@ get_header();
 							<div class="blockText">
 
 								<p>
-									At Arden's Automotive Hospital we offer you a complete range of auto repair services to help you keep your vehicle in top running condition. We pride
-									ourselves in taking the extra time to properly diagnose your car's issues. Saving you money and getting you back on the road faster.
+									The best way to avoid expensive repairs to your vehicle is to read the owners manual and follow the recommended scheduled maintenance. This is important because
+									it was written by the people that know the vehicle the best. Your vehicle’s manual provides instructions for how often you need to change oil, filters, belts,
+									spark plugs, tires and more.
+								</p>
+
+								<p>
+
+									Bring your vehicle to Arden’s and keep your vehicle in top shape by performing the following maintenance:
+
+								</p>
+
+								<ul>
+
+									<li>Inspect and replace timing belts (preventing damage to other accessories)</li>
+									<li>Inspect and replace serpentine belts (preventing damage to other accessories)</li>
+									<li>Check and change oil</li>
+									<li>Check and replace the battery</li>
+									<li>Check and replace batteries</li>
+									<li>Check and replace cabin air filters</li>
+									<li>Check and replace your engine air filter</li>
+									<li>Check and replace spark plugs</li>
+									<li>Tire rotation: This ensures even wear on your tires, which can help prevent blowouts and leaking and maintain a smooth ride.</li>
+									<li>Tire balancing: Balancing your tires prevents wear, which can significantly improve tire life.</li>
+
+								</ul>
+
+								<p>
+									By following your vehicle’s owner’s manual and having your vehicle inspected and maintained regularly, you can greatly reduce problems and save money in the long
+									run. Call Arden’s at <a href="tel:(920) 203-3694" class="plainLink">(920) 203-3694</a> to get started with your regular preventative maintenance plan.
 								</p>
 
 							</div>
@@ -72,6 +99,35 @@ get_header();
 					</div>
 
 				</section>
+
+				<div class="pageWidth smallPaddedSection">
+
+					<div class="col60 centeredContainer">
+
+						<div class="raisedTextBox">
+
+							<div class="textWrap">
+
+								<h3>Client Feedback</h3>
+
+								<p>
+
+									" This a great family owned business that prides itself on honesty and trustworthiness. They really make you feel a part of the family when you're
+									there. Prices are always fair and you can trust that the work being done is of high quality. "
+
+									<br><br>
+
+									-Kailey Lemon
+
+								</p>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
 
 				<section id="servicesWrap">
 
@@ -223,34 +279,6 @@ get_header();
 
 						</div>
 
-						<div class="fullWidth smallPaddedSection">
-
-							<div class="col60 centeredContainer">
-
-								<div class="raisedTextBox">
-
-									<div class="textWrap">
-
-										<h3>Client Feedback</h3>
-
-										<p>
-
-											" Excellent work and at a fair price! I had a lift kit installed in my truck, and Alex did an excellent job! Very happy customer! "
-
-											<br><br>
-
-											-Eric Wallace
-
-										</p>
-
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-
 				</section>
 
 				<section class="CTA">
@@ -272,7 +300,7 @@ get_header();
 
 										<div class="centeredButton">
 
-											<a href="https://expressrecycling.biz/contact/"><button class="whiteButton">Contact Arden's</button></a>
+											<a href="/contact/"><button class="whiteButton">Contact Arden's</button></a>
 
 										</div>
 
@@ -306,7 +334,7 @@ get_header();
 
 									Oshkosh, WI 54902</p></a>
 
-									<a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a>
+									<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
 
 									<br>
 

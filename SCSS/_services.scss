@@ -2,15 +2,40 @@
 .serviceHero{
   background-image: url('/assets/scss/wp-content/uploads/2019/01/transmissionWorkCroppedLarge.jpg');
 }
-#servicesIntro{
-	@include breakpoint(smallScreen){
-		margin-top: 300px;
+.serviceHeading{
+  @include breakpoint(smallScreen){
+		bottom: -160px !important;
 	}
 	@include breakpoint(largeMobileScreen){
-		margin-top: 350px;
+		bottom: -130px;
 	}
 	@include breakpoint(tabletScreen){
+		bottom: -55px;
+	}
+	@media (min-width: 1250px){
+		width: 60%;
+	}
+}
+#servicesIntro{
+	@include breakpoint(smallScreen){
+		margin-top: 200px;
+	}
+	@include breakpoint(largeMobileScreen){
 		margin-top: 150px;
+	}
+	@include breakpoint(tabletScreen){
+		margin-top: 75px;
+	}
+}
+.servicesPageContent{
+  @include breakpoint(smallScreen){
+		margin-top: 200px;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin-top: 150px;
+	}
+	@include breakpoint(tabletScreen){
+		margin-top: 75px;
 	}
 }
 .tabletRow{

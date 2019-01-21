@@ -30,7 +30,7 @@ get_header();
 
 							<div class="heroHeadingWrap fullWidth">
 
-									<div class="homeHeading">
+									<div id="contactHeading" class="homeHeading">
 
 										<div class="heroHeading">
 

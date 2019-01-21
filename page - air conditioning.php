@@ -30,7 +30,7 @@ get_header();
 
 							<div class="heroHeadingWrap fullWidth">
 
-								<div class="centerText homeHeading">
+								<div class="centerText homeHeading serviceHeading">
 
 									<div class="heroHeading">
 
@@ -48,11 +48,11 @@ get_header();
 
 				</section>
 
-				<section id="servicePageContent">
+				<section class="servicesPageContent">
 
 				<div>
 
-				<section id ="servicesIntro">
+				<section id ="ACOverview">
 
 					<div class="pageWidth flex-container">
 
@@ -61,8 +61,31 @@ get_header();
 							<div class="blockText">
 
 								<p>
-									At Arden's Automotive Hospital we offer you a complete range of auto repair services to help you keep your vehicle in top running condition. We pride
-									ourselves in taking the extra time to properly diagnose your car's issues. Saving you money and getting you back on the road faster.
+									Does your air conditioning only blow slightly cooler air compared to just the car’s fan alone? Does your car smell damp or musty when you turn your air on?
+									These are just a couple indications that your air conditioning system may be having issues.
+								</p>
+
+								<p>
+									While it could be as simple as topping off your car’s refrigerant, it’s important to check for leaks, inspect hoses and condenser to make sure everything is
+									working together. Here are some of the other points we inspect in your air condition system:
+								</p>
+
+								<ul>
+
+									<li>Examine all internal controls and blower</li>
+									<li>Radiator coolant operating temperature, hoses, pressure radiator cap and thermostat</li>
+									<li>Inspect the compressor belt</li>
+									<li>Inspect hoses and seals for leaks or damage</li>
+									<li>A cooling system pressure test</li>
+									<li>Verify the A/C pressure meets manufacturer specifications</li>
+									<li>Measure the interior vent air temperature</li>
+									<li>Coolant System Flush</li>
+
+								</ul>
+
+								<p>
+									To make sure your vehicle’s air conditioning system is working right, bring it in for a professional inspection or repair. We’ll diagnose any issues
+									and get your car blowing cold air and keeping you comfortable again.
 								</p>
 
 							</div>
@@ -72,6 +95,35 @@ get_header();
 					</div>
 
 				</section>
+
+				<div class="pageWidth smallPaddedSection">
+
+					<div class="col60 centeredContainer">
+
+						<div class="raisedTextBox">
+
+							<div class="textWrap">
+
+								<h3>Client Feedback</h3>
+
+								<p>
+
+									" This a great family owned business that prides itself on honesty and trustworthiness. They really make you feel a part of the family when you're
+									there. Prices are always fair and you can trust that the work being done is of high quality. "
+
+									<br><br>
+
+									-Kailey Lemon
+
+								</p>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
 
 				<section id="servicesWrap">
 
@@ -223,34 +275,6 @@ get_header();
 
 						</div>
 
-						<div class="fullWidth smallPaddedSection">
-
-							<div class="col60 centeredContainer">
-
-								<div class="raisedTextBox">
-
-									<div class="textWrap">
-
-										<h3>Client Feedback</h3>
-
-										<p>
-
-											" Excellent work and at a fair price! I had a lift kit installed in my truck, and Alex did an excellent job! Very happy customer! "
-
-											<br><br>
-
-											-Eric Wallace
-
-										</p>
-
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-
 				</section>
 
 				<section class="CTA">
@@ -272,7 +296,7 @@ get_header();
 
 										<div class="centeredButton">
 
-											<a href="https://expressrecycling.biz/contact/"><button class="whiteButton">Contact Arden's</button></a>
+											<a href="/contact/"><button class="whiteButton">Contact Arden's</button></a>
 
 										</div>
 
@@ -306,7 +330,7 @@ get_header();
 
 									Oshkosh, WI 54902</p></a>
 
-									<a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a>
+									<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
 
 									<br>
 

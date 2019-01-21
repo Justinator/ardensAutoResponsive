@@ -30,7 +30,7 @@ get_header();
 
 							<div class="heroHeadingWrap fullWidth">
 
-								<div class="centerText homeHeading">
+								<div class="centerText homeHeading serviceHeading">
 
 									<div class="heroHeading">
 
@@ -48,11 +48,11 @@ get_header();
 
 				</section>
 
-				<section id="servicePageContent">
+				<section class="servicesPageContent">
 
 				<div>
 
-				<section id ="servicesIntro">
+				<section id ="oilChangeOverview">
 
 					<div class="pageWidth flex-container">
 
@@ -61,8 +61,14 @@ get_header();
 							<div class="blockText">
 
 								<p>
-									At Arden's Automotive Hospital we offer you a complete range of auto repair services to help you keep your vehicle in top running condition. We pride
-									ourselves in taking the extra time to properly diagnose your car's issues. Saving you money and getting you back on the road faster.
+									An important part of routine car maintenance is changing the oil regularly. Engine oil helps to lubricate, cool, and clean the internal engine components.
+									While some mechanics claim you can go 10,000 miles without changing your oil these days, waiting too long in between oil changes is dangerous for your
+									engine. It can allow dirt and old oil to settle in your engine and cause extra friction, creating unnecessary or even dangerous wear on your engine.
+								</p>
+
+								<p>
+									The best course of action is to check the owner’s manual and follow the manufacturer’s recommendations. Bring your car in on a regular schedule based on
+									your manufacturer’s recommendation.
 								</p>
 
 							</div>
@@ -72,6 +78,35 @@ get_header();
 					</div>
 
 				</section>
+
+				<div class="fullWidth smallPaddedSection">
+
+					<div class="col60 centeredContainer">
+
+						<div class="raisedTextBox">
+
+							<div class="textWrap">
+
+								<h3>Client Feedback</h3>
+
+								<p>
+
+									" This a great family owned business that prides itself on honesty and trustworthiness. They really make you feel a part of the family when you're
+									there. Prices are always fair and you can trust that the work being done is of high quality. "
+
+									<br><br>
+
+									-Kailey Lemon
+
+								</p>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
 
 				<section id="servicesWrap">
 
@@ -223,34 +258,6 @@ get_header();
 
 						</div>
 
-						<div class="fullWidth smallPaddedSection">
-
-							<div class="col60 centeredContainer">
-
-								<div class="raisedTextBox">
-
-									<div class="textWrap">
-
-										<h3>Client Feedback</h3>
-
-										<p>
-
-											" Excellent work and at a fair price! I had a lift kit installed in my truck, and Alex did an excellent job! Very happy customer! "
-
-											<br><br>
-
-											-Eric Wallace
-
-										</p>
-
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-
 				</section>
 
 				<section class="CTA">
@@ -272,7 +279,7 @@ get_header();
 
 										<div class="centeredButton">
 
-											<a href="https://expressrecycling.biz/contact/"><button class="whiteButton">Contact Arden's</button></a>
+											<a href="/contact/"><button class="whiteButton">Contact Arden's</button></a>
 
 										</div>
 
@@ -306,7 +313,7 @@ get_header();
 
 									Oshkosh, WI 54902</p></a>
 
-									<a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a>
+									<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
 
 									<br>
 

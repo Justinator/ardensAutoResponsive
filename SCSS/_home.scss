@@ -274,7 +274,7 @@
 }
 .feedbackButtonWrapper{
 	position: fixed;
-  bottom: 200px;
+  bottom: 100px;
   right: -70px;
   z-index: 9999;
   transform: rotate(-90deg);
@@ -312,7 +312,11 @@
   transform: translateX(0);
 	transition: .3s ease all;
 }
-.caldera-grid label{
+#fld_1177625Label{
+	font-size: 14px;
+	color: $white !important;
+}
+#fld_4412757Label{
 	font-size: 14px;
 	color: $white !important;
 }

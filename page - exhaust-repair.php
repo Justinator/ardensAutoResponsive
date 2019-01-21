@@ -30,7 +30,7 @@ get_header();
 
 							<div class="heroHeadingWrap fullWidth">
 
-								<div class="centerText homeHeading">
+								<div class="centerText homeHeading serviceHeading">
 
 									<div class="heroHeading">
 
@@ -48,11 +48,11 @@ get_header();
 
 				</section>
 
-				<section id="servicePageContent">
+				<section class="servicesPageContent">
 
 				<div>
 
-				<section id ="servicesIntro">
+				<section id ="exhaustOverview">
 
 					<div class="pageWidth flex-container">
 
@@ -61,8 +61,18 @@ get_header();
 							<div class="blockText">
 
 								<p>
-									At Arden's Automotive Hospital we offer you a complete range of auto repair services to help you keep your vehicle in top running condition. We pride
-									ourselves in taking the extra time to properly diagnose your car's issues. Saving you money and getting you back on the road faster.
+									A properly functioning exhaust system not only sounds better, but it’s also safer for you and the environment. Your car’s exhaust system is responsible for
+									keeping dangerous fumes out of your car by pushing them out the back.
+								</p>
+
+								<p>
+									A good exhaust system also improves the functionality of your vehicle and improves your gas mileage. Damaged or leaking exhaust systems can make your vehicle
+									work harder than it needs to, creating unnecessary wear and damage to your engine.
+								</p>
+
+								<p>
+									If you have any rattling or clunking sounds in your exhaust system while idling or driving, or your exhaust is just getting louder than normal, it’s time to have
+									some repairs done. Bring your car to Arden’s Automotive Hospital to diagnose your exhaust system issues today.
 								</p>
 
 							</div>
@@ -72,6 +82,35 @@ get_header();
 					</div>
 
 				</section>
+
+				<div class="pageWidth smallPaddedSection">
+
+					<div class="col60 centeredContainer">
+
+						<div class="raisedTextBox">
+
+							<div class="textWrap">
+
+								<h3>Client Feedback</h3>
+
+								<p>
+
+									" This a great family owned business that prides itself on honesty and trustworthiness. They really make you feel a part of the family when you're
+									there. Prices are always fair and you can trust that the work being done is of high quality. "
+
+									<br><br>
+
+									-Kailey Lemon
+
+								</p>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
 
 				<section id="servicesWrap">
 
@@ -223,34 +262,6 @@ get_header();
 
 						</div>
 
-						<div class="fullWidth smallPaddedSection">
-
-							<div class="col60 centeredContainer">
-
-								<div class="raisedTextBox">
-
-									<div class="textWrap">
-
-										<h3>Client Feedback</h3>
-
-										<p>
-
-											" Excellent work and at a fair price! I had a lift kit installed in my truck, and Alex did an excellent job! Very happy customer! "
-
-											<br><br>
-
-											-Eric Wallace
-
-										</p>
-
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-
 				</section>
 
 				<section class="CTA">
@@ -272,7 +283,7 @@ get_header();
 
 										<div class="centeredButton">
 
-											<a href="https://expressrecycling.biz/contact/"><button class="whiteButton">Contact Arden's</button></a>
+											<a href="/contact/"><button class="whiteButton">Contact Arden's</button></a>
 
 										</div>
 
@@ -306,7 +317,7 @@ get_header();
 
 									Oshkosh, WI 54902</p></a>
 
-									<a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a>
+									<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
 
 									<br>
 

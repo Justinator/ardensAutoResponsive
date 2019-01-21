@@ -152,7 +152,7 @@ get_header();
 						<p id="serviceHook">
 							Is your car making that weird noise again? Not sure what’s going on or how to figure it out? With experience from oil changes, brakes, and
 							tires to troubleshooting and diagnosing engine failures, at Arden’s you’ll find an expert and fair diagnosis and repair for all your
-							car’s issues.
+							car’s issues. Does your vehicle need attention right away? Schedule an appointment or call Arden’s today at <a href="tel:(920)203-3694" class="plainLink">(920) 203-3694</a>.
 						</p>
 
 					</div>
@@ -437,7 +437,7 @@ get_header();
 
 									Oshkosh, WI 54902</p></a>
 
-									<a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a>
+									<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
 
 									<br>
 

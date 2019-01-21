@@ -48,11 +48,11 @@ get_header();
 
 				</section>
 
-				<section id="servicePageContent">
+				<section class="servicesPageContent">
 
 				<div>
 
-				<section id ="servicesIntro">
+				<section id ="tiresOverview">
 
 					<div class="pageWidth flex-container">
 
@@ -61,8 +61,19 @@ get_header();
 							<div class="blockText">
 
 								<p>
-									At Arden's Automotive Hospital we offer you a complete range of auto repair services to help you keep your vehicle in top running condition. We pride
-									ourselves in taking the extra time to properly diagnose your car's issues. Saving you money and getting you back on the road faster.
+									Tires are the single most important safety feature on your car as your tires connect the car to the road. Regular tire inspection, balancing, and rotation will
+									extend the life of your tires and help maintain a safe and smooth ride. Regularly inspecting your tires for irregular tread wear can also help detect other
+									repairs that may be needed in your suspension or alignment.
+								</p>
+
+								<p>
+									Regular tire rotation is another form of <a href="/auto-repair-services/preventative-maintenance/" class="plainLink">preventative maintenance</a> and extends the
+									life of your tires. Every tire wears differently based on the weight distribution and your driving style. Your owner’s manual will tell you how often you need to
+									rotate your tires to ensure even wear.
+								</p>
+
+								<p>
+									Not sure what condition your tires are in? Bring your car to Arden’s Auto and have a professional tire inspection done today.
 								</p>
 
 							</div>
@@ -72,6 +83,34 @@ get_header();
 					</div>
 
 				</section>
+
+				<div class="pageWidth smallPaddedSection">
+
+					<div class="col60 centeredContainer">
+
+						<div class="raisedTextBox">
+
+							<div class="textWrap">
+
+								<h3>Client Feedback</h3>
+
+								<p>
+
+									" I had a leak in my tire and they were able to get me around my schedule. Customer service was outstanding and I highly recommend them. "
+
+									<br><br>
+
+									-Robin Beyer Drexler
+
+								</p>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
 
 				<section id="servicesWrap">
 
@@ -223,34 +262,6 @@ get_header();
 
 						</div>
 
-						<div class="fullWidth smallPaddedSection">
-
-							<div class="col60 centeredContainer">
-
-								<div class="raisedTextBox">
-
-									<div class="textWrap">
-
-										<h3>Client Feedback</h3>
-
-										<p>
-
-											" Excellent work and at a fair price! I had a lift kit installed in my truck, and Alex did an excellent job! Very happy customer! "
-
-											<br><br>
-
-											-Eric Wallace
-
-										</p>
-
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-
 				</section>
 
 				<section class="CTA">
@@ -272,7 +283,7 @@ get_header();
 
 										<div class="centeredButton">
 
-											<a href="https://expressrecycling.biz/contact/"><button class="whiteButton">Contact Arden's</button></a>
+											<a href="/contact/"><button class="whiteButton">Contact Arden's</button></a>
 
 										</div>
 
@@ -306,7 +317,7 @@ get_header();
 
 									Oshkosh, WI 54902</p></a>
 
-									<a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a>
+									<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
 
 									<br>
 

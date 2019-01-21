@@ -67,10 +67,12 @@
     	transition: .3s ease all;
     	bottom: 12px;
     	left: 0;
-    }
-    @include breakpoint(smallScreen){
-      bottom: 0;
-      width: 0%;
+				@include breakpoint(smallScreen){
+					visibility: hidden;
+				}
+				@include breakpoint(tabletScreen){
+					visibility: visible;
+				}
     }
       &:hover{
         &:after{

@@ -10,6 +10,9 @@
     margin-top: 50px;
   }
 }
+#promotionsRow2{
+  margin-top: 25px;
+}
 .couponBox{
 	box-shadow: 0px 6px 30px rgba(0,0,0,.3);
 	border-radius: 10px;
@@ -35,19 +38,19 @@
 		width: 100%;
 		border-radius: 0;
 		background-color: $primaryColor;
-		bottom: -140px;
+		bottom: -120px;
 	}
 	@include breakpoint(largeMobileScreen){
 		width: 100%;
 		border-radius: 0;
 		background-color: $primaryColor;
-		bottom: -140px;
+		bottom: -130px;
 	}
 	@include breakpoint(tabletScreen){
 		width: 80%;
 		border-radius: 10px;
 		background-color: rgba(201, 43, 44,.9);
-		bottom: -75px;
+		bottom: -55px;
 	}
 	@media (min-width: 1250px){
 		width: 60%;

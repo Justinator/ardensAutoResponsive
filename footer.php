@@ -18,31 +18,31 @@
 
 			<li>
 
-				<a class="footerLink" href = "/auto-repair-services/">Auto Repair Services</a>
+				<a href="/auto-repair-services/" class="footerLink">Auto Repair Services</a>
 
 			</li>
 
 			<li>
 
-				<a class="footerLink" href = "/projects/">Projects</a>
+				<a href="/projects/" class="footerLink">Projects</a>
 
 			</li>
 
 			<li>
 
-				<a class="footerLink" href = "/about/">About</a>
+				<a href="/about/" class="footerLink">About</a>
 
 			</li>
 
 			<li>
 
-				<a class="footerLink" href = "/promotions/">Promotions</a>
+				<a href="/promotions/" class="footerLink">Promotions</a>
 
 			</li>
 
 			<li>
 
-				<a class="footerLink" href = "/contact/">Contact</a>
+				<a  href="/contact/" class="footerLink">Contact</a>
 
 			</li>
 
@@ -58,7 +58,7 @@
 
 			<a target="_blank" href="https://www.google.com/maps/place/Arden's+Automotive+Hospital+LLC/@44.0111548,-88.5527741,17z/data=!3m1!4b1!4m5!3m4!1s0x8803ebf8a244848f:0xab246929a6800b92!8m2!3d44.0111548!4d-88.5505854"><p class="centerText">510 W 8th Ave. Oshkosh, WI 54902</p></a>
 
-			<a class="whiteText centerText" href="tel:(920)203-3694"><p>(920)203-3694</p></a>
+			<a class="whiteText centerText" href="tel:(920)203-3694"><p>(920) 203-3694</p></a>
 
 			</div>
 
@@ -104,6 +104,9 @@
 
 			<!-- Script for barba.js -->
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js" type="text/javascript"></script>
+
+			<!-- Script for formalize -->
+			<script src="/JS/jquery.formalize.js"></script>
 
 	</footer><!-- #colophon -->
 
