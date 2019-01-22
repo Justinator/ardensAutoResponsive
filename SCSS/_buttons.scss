@@ -22,6 +22,7 @@
     &:hover{
       background: $primaryColorDarkened !important;
       border: 2px solid $primaryColorDarkened !important;
+      color: $white !important;
     	transition: .2s ease all;
     }
 }
