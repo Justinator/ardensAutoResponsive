@@ -64,7 +64,7 @@ get_header();
 
 									<p>New oil filter and five quarts of oil</p>
 
-									<h3 class="">$24.99</h3>
+									<h4>$24.99</h4>
 
 									<p class="terms">Applies for most vehicles. Some restrictions apply for vehicles with special filter or oil requirements.</p>
 
@@ -82,7 +82,7 @@ get_header();
 
 									<h3 class="centerText">Brake Work Only</h3>
 
-									<p>10% Off all parts & labor</p>
+									<h4>10% Off all parts & labor</h4>
 
 									<p class="terms">Applies for most vehicles. Some restrictions apply for vehicles with special brake requirements.</p>
 
@@ -104,7 +104,7 @@ get_header();
 
 									<h3 class="centerText">Oil Change & Tire Rotation</h3>
 
-									<p>$10.00 Off</p>
+									<h4>$10.00 Off</h4>
 
 									<p class="terms">Applies for most vehicles. Some restrictions apply.</p>
 
@@ -122,7 +122,7 @@ get_header();
 
 									<h3 class="centerText">Air Conditioning Service</h3>
 
-									<p>$15.00 Off</p>
+									<h4>$15.00 Off</h4>
 
 									<p>
 

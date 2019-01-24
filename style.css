@@ -1828,4 +1828,21 @@ template {
 .aboutHero {
   background-image: url("/assets/scss/wp-content/uploads/2019/01/alexWorkingOnATransmissionCropped.jpg"); }
 
+/* 16.0 Project Pages -------------------------------------------*/
+.featuredProjects {
+  margin-top: 100px; }
+
+@media (max-width: 600px) {
+  .projectsHeading {
+    bottom: -120px; } }
+@media (min-width: 600px) {
+  .projectsHeading {
+    bottom: -130px; } }
+@media (min-width: 768px) {
+  .projectsHeading {
+    bottom: -55px; } }
+
+.jeepHero {
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped2.jpg"); }
+
 /*# sourceMappingURL=style.css.map */
