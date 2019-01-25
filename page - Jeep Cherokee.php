@@ -58,17 +58,199 @@ get_header();
 
 						<div class="navWidth paddedSection">
 
-							<div class="fullWidth">
+							<div class="fullWidth flex-container">
 
 								<div class="col50">
 
-										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped.jpg">
+									<div class="imageWrapper">
+
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject1Medium.jpg">
+
+									</div>
 
 								</div>
 
 								<div class="col50">
 
-										<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/mazdaEnginePull0.1Medium.jpg">
+									<div class="imageWrapper">
+
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject2Medium.jpg">
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="fullWidth flex-container centerAlignedContainer">
+
+								<div class="col50">
+
+									<div class="imageColumn">
+
+										<div class="">
+
+											<div class="imageWrapper">
+
+												<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject3Medium.jpg">
+
+											</div>
+
+										</div>
+
+											<div class="">
+
+												<div class="imageWrapper">
+
+													<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject5Medium.jpg">
+
+												</div>
+
+											</div>
+
+									</div>
+
+								</div>
+
+								<div class="col50">
+
+									<div class="imageWrapper">
+
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject4.jpg">
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="fullWidth flex-container centerAlignedContainer">
+
+								<div class="col50">
+
+									<div class="imageWrapper">
+
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/alexWorkingOnTheCherokee.jpg">
+
+									</div>
+
+								</div>
+
+								<div class="col50">
+
+									<div class="imageColumn">
+
+										<div class="">
+
+											<div class="imageWrapper">
+
+												<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject6Medium-1.jpg">
+
+											</div>
+
+										</div>
+
+											<div class="">
+
+												<div class="imageWrapper">
+
+													<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject8Medium-1.jpg">
+
+												</div>
+
+											</div>
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="fullWidth flex-container centerAlignedContainer">
+
+								<div class="col50">
+
+									<div class="imageColumn">
+
+										<div class="">
+
+											<div class="imageWrapper">
+
+												<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject9Medium-1.jpg">
+
+											</div>
+
+										</div>
+
+											<div class="">
+
+												<div class="imageWrapper">
+
+													<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject11Medium-1.jpg">
+
+												</div>
+
+											</div>
+
+									</div>
+
+								</div>
+
+								<div class="col50">
+
+									<div class="imageWrapper">
+
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject10.jpg">
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="fullWidth flex-container">
+
+								<div class="col50">
+
+									<div class="imageWrapper">
+
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject12Medium.jpg">
+
+									</div>
+
+								</div>
+
+								<div class="col50">
+
+									<div class="imageWrapper">
+
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject13Medium.jpg">
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="fullWidth flex-container">
+
+								<div class="col50">
+
+									<div class="imageWrapper">
+
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject14Medium.jpg">
+
+									</div>
+
+								</div>
+
+								<div class="col50">
+
+									<div class="imageWrapper">
+
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/jeepCherokeeProject15Medium.jpg">
+
+									</div>
 
 								</div>
 

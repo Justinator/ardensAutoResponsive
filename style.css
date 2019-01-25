@@ -1845,4 +1845,7 @@ template {
 .jeepHero {
   background-image: url("/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped2.jpg"); }
 
+.imageWrapper {
+  padding: 10px; }
+
 /*# sourceMappingURL=style.css.map */

@@ -333,46 +333,17 @@ get_header();
 
 								<div class="col40 zoomContainerWrapper">
 
-										<a class="zoomContainerLarge" href="/projects/hundai-tiburon/">
+										<a class="zoomContainerLarge" href="/projects/mazdaspeed3/">
 
 											<div class="zoomContainerLarge">
 
-												<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/engineTiburonCropped.jpg">
+												<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/mazdaEnginePull0.1Medium.jpg">
 
 											</div>
 
-											<h4 class="centerText">Hyundai Tiburon</h4>
+											<h4 class="centerText">Mazdaspeed3</h4>
 
 										</a>
-
-								</div>
-
-							</div>
-
-							<div class="fullWidth flex-container centerAlignedContainer">
-
-								<div class="col50">
-
-									<div class="blockTextSecondary">
-
-										<h3>2012 Mazdaspeed3</h3>
-
-										<p>
-
-											Fast cars are fun but, can end up taking a lot of abuse while being pushed to their limit. Which was exactly the case for this Mazdaspeed3’s engine
-											that was in desperate need of attention.
-
-										</p>
-
-										<a href="/projects/mazdaspeed3/"><button class="redButton">View the full project</button></a>
-
-									</div>
-
-								</div>
-
-								<div class="col50">
-
-									<img src="/assets/scss/wp-content/uploads/2019/01/mazdaEnginePull0.1Medium.jpg" class="image">
 
 								</div>
 

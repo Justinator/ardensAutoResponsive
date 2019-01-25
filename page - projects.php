@@ -30,7 +30,7 @@ get_header();
 
 							<div class="heroHeadingWrap fullWidth">
 
-								<div id="projectsHeading" class="centerText homeHeading projectsHeading">
+								<div class="centerText homeHeading projectsHeading">
 
 									<div class="heroHeading">
 
@@ -86,7 +86,7 @@ get_header();
 
 											</div>
 
-											<h4 class="centerText">2012 Mazdaspeed3</h4>
+											<h4 class="centerText">Mazdaspeed3</h4>
 
 										</a>
 
