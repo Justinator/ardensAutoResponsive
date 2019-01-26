@@ -106,12 +106,12 @@
 }
 .tireHeading{
   @include breakpoint(smallScreen){
-    bottom: -185px !important;
+    bottom: -120px !important;
   }
   @include breakpoint(largeMobileScreen){
-    bottom: -150px !important;
+    bottom: -130px !important;
   }
   @include breakpoint(tabletScreen){
-    bottom: -75px !important;
+    bottom: -55px !important;
   }
 }

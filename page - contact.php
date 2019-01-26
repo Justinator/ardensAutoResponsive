@@ -89,6 +89,10 @@ get_header();
 										Oshkosh, WI 54902</p></a>
 
 										<a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a>
+										
+										<br>
+
+										<a class="plainLink" href="/customer-reviews/">Leave Us a Review</a>
 
 										<br>
 

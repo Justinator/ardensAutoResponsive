@@ -30,7 +30,7 @@ get_header();
 
 							<div class="heroHeadingWrap fullWidth">
 
-								<div class="centerText homeHeading">
+								<div class="centerText aboutHeading">
 
 									<div class="heroHeading">
 
@@ -63,17 +63,22 @@ get_header();
 								<h2>About Arden's Automotive Hospital</h2>
 
 								<p>
-									Arden’s Automotive Hospital brings you three generations of auto repair experience. Arden’s originally started in 1959 by Arden ____ Todd, who specialized in
-									transmission repairs. In 1992, Arden ___ Todd took over his father's business keeping true to the transmission repair roots that his father had established.
+									Arden’s Automotive Hospital brings you three generations of auto repair experience. Arden’s originally opened in 1959 by Arden George Todd, who specialized in
+									transmission repairs. In 1992, Arden James Todd took over his father's business keeping true to the transmission repair roots that his father had established.
 								</p>
 								<p>
-									As time went on, Arden’s began branching out from transmission work to encompass all auto repairs. Arden's became a full-service auto repair shop, servicing the Oshkosh
-									area, with more auto repair services to help you keep your car on the road longer.
+									As time went on, Arden’s began branching out from transmission work to encompass all auto repairs. Arden's became a full-service auto
+									repair shop, servicing all makes and models in the Oshkosh area.
 								</p>
 								<p>
-									2016 brought along the third generation in the family as Alex Todd reopened the business and took over where his Grandfather and father had left off. As Alex took over,
-									the founding principles of fairness and honesty remained the driving force behind Arden’s Automotive Hospital. So stop in or contact Arden’s
-									with all of your auto repair needs and experience the family oriented and honest service that has been driving Arden’s for almost 60 years.
+									2016 brought along the third generation in the family as Alex Arden Todd reopened the business and took over where his grandfather and
+									father had left off. After Alex took over, the founding principles of fairness and honesty remain the driving force behind
+									Arden’s Automotive Hospital.
+								</p>
+
+								<p>
+									Need help with your auto repairs? Stop in or contact Arden’s with all of your auto repair needs and experience the family
+									oriented and honest service that has been driving Arden’s for almost 60 years.
 								</p>
 
 								<a href="/projects/"><button class="redButton">View Some Of Our Work</button></a>
@@ -352,6 +357,10 @@ get_header();
 									Oshkosh, WI 54902</p></a>
 
 									<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
+
+									<br>
+
+									<a class="plainLink" href="/customer-reviews/">Leave Us a Review</a>
 
 									<br>
 

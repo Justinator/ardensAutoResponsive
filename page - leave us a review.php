@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Projects
+ * Template Name: Reviews
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -22,7 +22,7 @@ get_header();
 
 			<main id="main" class="site-main">
 
-				<section class="hero">
+				<section id="hero">
 
 					<div class="hero shopHero">
 
@@ -30,11 +30,11 @@ get_header();
 
 							<div class="heroHeadingWrap fullWidth">
 
-								<div class="centerText homeHeading projectsHeading">
+								<div class="centerText homeHeading reviewHeading">
 
 									<div class="heroHeading">
 
-										<h1 class="whiteText">Auto Repair Projects</h1>
+										<h1 class="whiteText">Leave Us a Review</h1>
 
 									</div>
 
@@ -52,78 +52,31 @@ get_header();
 
 				<div>
 
-				<section class="featuredProjects">
+				<section id ="reviewIntro">
 
-					<div class="fullWidth">
+					<div class="navWidth flex-container centerAlignedContainer">
 
-						<div class="navWidth paddedSection">
+						<div class="col50">
 
-							<div class="fullWidth serviceFlexContainer">
+							<div class="blockText">
 
-								<div class="col40 zoomContainerWrapper">
+								<p>
+									At Arden's Automotive Hospital we take our work very seriously and strive to provide a great experience to every customer we get to work with.
+									We value every customer and love to hear how we’re doing. Thanks for all your support over the years and please share your experiences to
+									help others find great automotive care in Oshkosh.
+								</p>
 
-										<a class="zoomContainerLarge" href="/projects/jeep-cherokee/">
+								<a href="https://www.facebook.com/pg/ardensautohospital/reviews/?ref=page_internal" target="_blank"><button class="redButton">Facebook Review</button></a>
 
-											<div class="zoomContainerLarge">
-
-												<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped.jpg">
-
-											</div>
-
-											<h4 class="centerText">Jeep Cherokee</h4>
-
-										</a>
-
-								</div>
-
-								<div class="col40 zoomContainerWrapper">
-
-										<a class="zoomContainerLarge" href="/projects/mazdaspeed3/">
-
-											<div class="zoomContainerLarge">
-
-												<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16MediumSquared.jpg">
-
-											</div>
-
-											<h4 class="centerText">Mazdaspeed3</h4>
-
-										</a>
-
-								</div>
+								<a href="https://www.google.com/search?q=arden%27s+automotive+hospital&rlz=1C1CHBD_enUS813US813&oq=ardens+auto&aqs=chrome.4.69i57j69i60l3j0j69i65.9568j0j1&sourceid=chrome&ie=UTF-8#lrd=0x8803ebf8a244848f:0xab246929a6800b92,3,,," target="_blank"><button class="redButton">Google Review</button></a>
 
 							</div>
 
 						</div>
 
-					</div>
+						<div class="col50">
 
-				</section>
-
-				<section id="homepageCTA">
-
-					<div class="siteCTAWrap">
-
-						<div class="CTAWrapOverlay">
-
-								<div class="CTAcontent">
-
-									<h3 class="whiteText">Ready to start giving your car the expert care that it deserves?</h3>
-
-										<p class="whiteText">
-
-											Don't put it off any longer. Stop in or contact Arden's Automotive Hospital to set up an appointment for your vehicle today.
-
-										</p>
-
-
-										<div class="centeredButton">
-
-											<a href="/contact/"><button class="whiteButton">Contact Arden's</button></a>
-
-										</div>
-
-								</div>
+							<img src="/assets/scss/wp-content/uploads/2019/01/ardenAndAlexTodd.jpg" class="image">
 
 						</div>
 
@@ -154,10 +107,6 @@ get_header();
 									Oshkosh, WI 54902</p></a>
 
 									<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
-
-									<br>
-
-									<a class="plainLink" href="/customer-reviews/">Leave Us a Review</a>
 
 									<br>
 

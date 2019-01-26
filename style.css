@@ -981,6 +981,12 @@ body {
       background: #8a1e1e;
       transition: .3s ease all; }
 
+.sublink {
+  margin-left: 50px; }
+
+#privacyPolicy {
+  margin-top: 150px; }
+
 /*9.0 Icon Styling -------------------------------------------*/
 .whiteIcon {
   color: #FFFFFF;
@@ -1022,13 +1028,13 @@ body {
       width: 100%;
       border-radius: 0;
       background-color: #c92b2c;
-      bottom: -235px; } }
+      bottom: -205px; } }
   @media (min-width: 600px) {
     .homeHeading {
       width: 100%;
       border-radius: 0;
       background-color: #c92b2c;
-      bottom: -195px; } }
+      bottom: -170px; } }
   @media (min-width: 768px) {
     .homeHeading {
       width: 80%;
@@ -1710,13 +1716,13 @@ template {
 
 @media (max-width: 600px) {
   .tireHeading {
-    bottom: -185px !important; } }
+    bottom: -120px !important; } }
 @media (min-width: 600px) {
   .tireHeading {
-    bottom: -150px !important; } }
+    bottom: -130px !important; } }
 @media (min-width: 768px) {
   .tireHeading {
-    bottom: -75px !important; } }
+    bottom: -55px !important; } }
 
 /* 13.0 Contact Page stylings -------------------------------------------*/
 @media (max-width: 600px) {
@@ -1828,6 +1834,56 @@ template {
 .aboutHero {
   background-image: url("/assets/scss/wp-content/uploads/2019/01/alexWorkingOnATransmissionCropped.jpg"); }
 
+.aboutHeading {
+  border-radius: 10px;
+  background-color: rgba(201, 43, 44, 0.9);
+  position: absolute;
+  bottom: -75px; }
+  @media (max-width: 600px) {
+    .aboutHeading {
+      width: 100%;
+      border-radius: 0;
+      background-color: #c92b2c;
+      bottom: -160px; } }
+  @media (min-width: 600px) {
+    .aboutHeading {
+      width: 100%;
+      border-radius: 0;
+      background-color: #c92b2c;
+      bottom: -170px; } }
+  @media (min-width: 768px) {
+    .aboutHeading {
+      width: 80%;
+      border-radius: 10px;
+      background-color: rgba(201, 43, 44, 0.9);
+      bottom: -55px; } }
+  @media (min-width: 1250px) {
+    .aboutHeading {
+      width: 60%; } }
+
+@media (max-width: 600px) {
+  .reviewHeading {
+    bottom: -120px; } }
+@media (min-width: 600px) {
+  .reviewHeading {
+    bottom: -130px; } }
+@media (min-width: 768px) {
+  .reviewHeading {
+    bottom: -55px; } }
+@media (min-width: 1250px) {
+  .reviewHeading {
+    width: 60%; } }
+
+@media (max-width: 600px) {
+  #reviewIntro {
+    margin-top: 150px; } }
+@media (min-width: 600px) {
+  #reviewIntro {
+    margin-top: 150px; } }
+@media (min-width: 992px) {
+  #reviewIntro {
+    margin-top: 100px; } }
+
 /* 16.0 Project Pages -------------------------------------------*/
 .featuredProjects {
   margin-top: 100px; }
@@ -1847,5 +1903,8 @@ template {
 
 .imageWrapper {
   padding: 10px; }
+
+.mazdaHero {
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Cropped.jpg"); }
 
 /*# sourceMappingURL=style.css.map */

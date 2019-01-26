@@ -301,6 +301,8 @@ get_header();
 
 										<ul>
 
+											<li>Starters</li>
+
 											<li>Alternators</li>
 
 											<li>Batteries</li>
@@ -309,13 +311,13 @@ get_header();
 
 											<li>Check Engine Lights</li>
 
-											<li>Complete Engine Repair</li>
+											<li>Fuel Pumps and Lines</li>
 
 											<li>Computerized Diagnostics</li>
 
-											<li>Cooling System Repair & Service</li>
+											<li>Cooling System Repair and Service</li>
 
-											<li>Electrical System Repair</li>
+											<li>Transmission Repair and Service</li>
 
 											<li>Emission Repair</li>
 
@@ -333,15 +335,17 @@ get_header();
 
 											<li>Fuel Injector Cleaning</li>
 
-											<li>Fuel Pumps & Lines</li>
+											<li>Clutch Repair and Service</li>
+
+											<li>Electrical System Repair</li>
 
 											<li>Hoses</li>
 
-											<li>Radiator Repair & Service</li>
+											<li>Radiator Repair and Service</li>
 
-											<li>Starters</li>
+											<li>Complete Engine Repair</li>
 
-											<li>Timing Belts & Chains</li>
+											<li>Timing Belts and Chains</li>
 
 											<li>Tune-ups</li>
 
@@ -389,7 +393,7 @@ get_header();
 
 												<li>Four Wheel Drive Repair</li>
 
-												<li>Front End Repair & Service</li>
+												<li>Front End Repair and Service</li>
 
 											</ul>
 
@@ -399,13 +403,13 @@ get_header();
 
 											<ul>
 
-												<li>Rack & Pinion</li>
+												<li>Rack and Pinion</li>
 
 												<li>Shock Absorbers</li>
 
 												<li>Springs</li>
 
-												<li>Steering & Chassis</li>
+												<li>Steering and Chassis</li>
 
 												<li>Struts</li>
 
@@ -516,6 +520,10 @@ get_header();
 									Oshkosh, WI 54902</p></a>
 
 									<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
+
+									<br>
+
+									<a class="plainLink" href="/customer-reviews/">Leave Us a Review</a>
 
 									<br>
 

@@ -334,6 +334,10 @@ get_header();
 
 									<br>
 
+									<a class="plainLink" href="/customer-reviews/">Leave Us a Review</a>
+
+									<br>
+
 								</div>
 
 							</div>

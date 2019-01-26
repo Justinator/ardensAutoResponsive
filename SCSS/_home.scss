@@ -22,13 +22,13 @@
 		width: 100%;
 		border-radius: 0;
 		background-color: $primaryColor;
-		bottom: -235px;
+		bottom: -205px;
 	}
 	@include breakpoint(largeMobileScreen){
 		width: 100%;
 		border-radius: 0;
 		background-color: $primaryColor;
-		bottom: -195px;
+		bottom: -170px;
 	}
 	@include breakpoint(tabletScreen){
 		width: 80%;

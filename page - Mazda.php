@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Jeep
+ * Template Name: Mazda
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -24,7 +24,7 @@ get_header();
 
 				<section class="hero">
 
-					<div class="hero jeepHero">
+					<div class="hero mazdaHero">
 
 						<div class="heroOverlay">
 
@@ -34,7 +34,7 @@ get_header();
 
 									<div class="heroHeading">
 
-										<h1 class="whiteText">Jeep Cherokee</h1>
+										<h1 class="whiteText">Mazdaspeed3</h1>
 
 									</div>
 
@@ -52,7 +52,7 @@ get_header();
 
 				<div>
 
-				<section id="jeepProjectGallery" class="featuredProjects">
+				<section id="mazdaProjectGallery" class="featuredProjects">
 
 					<div class="fullWidth">
 
@@ -64,7 +64,7 @@ get_header();
 
 									<div class="imageWrapper">
 
-										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject1Medium.jpg">
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3ProjectMedium.jpg">
 
 									</div>
 
@@ -74,49 +74,7 @@ get_header();
 
 									<div class="imageWrapper">
 
-										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject2Medium.jpg">
-
-									</div>
-
-								</div>
-
-							</div>
-
-							<div class="fullWidth flex-container centerAlignedContainer">
-
-								<div class="col50">
-
-									<div class="imageColumn">
-
-										<div class="">
-
-											<div class="imageWrapper">
-
-												<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject3Medium.jpg">
-
-											</div>
-
-										</div>
-
-											<div class="">
-
-												<div class="imageWrapper">
-
-													<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject5Medium.jpg">
-
-												</div>
-
-											</div>
-
-									</div>
-
-								</div>
-
-								<div class="col50">
-
-									<div class="imageWrapper">
-
-										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject4.jpg">
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project2Medium.jpg">
 
 									</div>
 
@@ -130,7 +88,7 @@ get_header();
 
 									<div class="imageWrapper">
 
-										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/alexWorkingOnTheCherokee.jpg">
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project3Medium.jpg">
 
 									</div>
 
@@ -138,27 +96,9 @@ get_header();
 
 								<div class="col50">
 
-									<div class="imageColumn">
+									<div class="imageWrapper">
 
-										<div class="">
-
-											<div class="imageWrapper">
-
-												<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject6Medium-1.jpg">
-
-											</div>
-
-										</div>
-
-											<div class="">
-
-												<div class="imageWrapper">
-
-													<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject8Medium-1.jpg">
-
-												</div>
-
-											</div>
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project4Medium.jpg">
 
 									</div>
 
@@ -170,27 +110,9 @@ get_header();
 
 								<div class="col50">
 
-									<div class="imageColumn">
+									<div class="imageWrapper">
 
-										<div class="">
-
-											<div class="imageWrapper">
-
-												<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject9Medium-1.jpg">
-
-											</div>
-
-										</div>
-
-											<div class="">
-
-												<div class="imageWrapper">
-
-													<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject11Medium-1.jpg">
-
-												</div>
-
-											</div>
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project5Medium.jpg">
 
 									</div>
 
@@ -200,7 +122,31 @@ get_header();
 
 									<div class="imageWrapper">
 
-										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject10.jpg">
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project6Medium.jpg">
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="fullWidth flex-container centerAlignedContainer">
+
+								<div class="col50">
+
+									<div class="imageWrapper">
+
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project8Medium.jpg">
+
+									</div>
+
+								</div>
+
+								<div class="col50">
+
+									<div class="imageWrapper">
+
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project9Medium.jpg">
 
 									</div>
 
@@ -214,7 +160,7 @@ get_header();
 
 									<div class="imageWrapper">
 
-										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject12Medium.jpg">
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project10Medium.jpg">
 
 									</div>
 
@@ -224,7 +170,49 @@ get_header();
 
 									<div class="imageWrapper">
 
-										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject13Medium.jpg">
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project11Medium.jpg">
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="fullWidth flex-container">
+
+								<div class="col50">
+
+									<div class="imageColumn">
+
+										<div class="">
+
+											<div class="imageWrapper">
+
+												<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project12Medium-1.jpg">
+
+											</div>
+
+										</div>
+
+											<div class="">
+
+												<div class="imageWrapper">
+
+													<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project14Medium-1.jpg">
+
+												</div>
+
+											</div>
+
+									</div>
+
+								</div>
+
+								<div class="col50">
+
+									<div class="imageWrapper">
+
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project13Medium.jpg">
 
 									</div>
 
@@ -238,7 +226,7 @@ get_header();
 
 									<div class="imageWrapper">
 
-										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/cherokeeProject14Medium.jpg">
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project15Medium.jpg">
 
 									</div>
 
@@ -248,7 +236,7 @@ get_header();
 
 									<div class="imageWrapper">
 
-										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/jeepCherokeeProject15Medium.jpg">
+										<img class="image" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16Medium.jpg">
 
 									</div>
 

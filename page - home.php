@@ -337,7 +337,7 @@ get_header();
 
 											<div class="zoomContainerLarge">
 
-												<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/mazdaEnginePull0.1Medium.jpg">
+												<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16MediumSquared.jpg">
 
 											</div>
 
@@ -409,6 +409,10 @@ get_header();
 									Oshkosh, WI 54902</p></a>
 
 									<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
+
+									<br>
+
+									<a class="plainLink" href="/customer-reviews/">Leave Us a Review</a>
 
 									<br>
 
