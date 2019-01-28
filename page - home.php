@@ -80,11 +80,12 @@ get_header();
 						<div class="col50">
 
 							<img
-							srcset="/assets/scss/wp-content/uploads/2019/01/ardensOldTruck-small.jpg 400w,
-							 /assets/scss/wp-content/uploads/2019/01/ardensOldTruck-medium.jpg 800w,
-							 /assets/scss/wp-content/uploads/2019/01/ardensOldTruck-large.jpg 1200w"
-
-							 class="image" alt="Arden's Auto old classic tow truck">
+							srcset="/assets/scss/wp-content/uploads/2019/01/ardensOldTruck-400.jpg 400w,
+							 /assets/scss/wp-content/uploads/2019/01/ardensOldTruck-600.jpg 600w,
+							 /assets/scss/wp-content/uploads/2019/01/ardensOldTruck-800.jpg 800w,
+							 /assets/scss/wp-content/uploads/2019/01/ardensOldTruck.jpg 1200w"
+							 src="/assets/scss/wp-content/uploads/2019/01/ardensOldTruck.jpg"
+							 class="image" alt="Arden's Auto old classic tow truck parked in front of building">
 
 						</div>
 
@@ -94,7 +95,7 @@ get_header();
 
 				<section class="ardensBenefits paddedSection">
 
-					<?php get_template_part('includes/benefits'); ?>
+					<?php get_template_part('Includes/benefits'); ?>
 
 				</section>
 
@@ -112,7 +113,7 @@ get_header();
 
 					</div>
 
-					<?php get_template_part('includes/services'); ?>
+					<?php get_template_part('Includes/services'); ?>
 
 				</section>
 
@@ -168,7 +169,15 @@ get_header();
 
 											<div class="zoomContainerLarge">
 
-												<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped.jpg" alt="Jeep Cherokee suspension rebuild by Arden's Auto Oshkosh WI">
+												<img class="image zoomImage"
+							          srcset="/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFront-400.jpg 400w,
+							           /assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFront-500.jpg 600w,
+							           /assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFront-600.jpg 800w,
+							           /assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped.jpg 1200w"
+							          sizes="(min-width: 992px) 50vw"
+							           src="/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped.jpg"
+							           class="image" alt="Jeep Cherokee custom suspension rebuild with lift kit by Arden's Auto Oshkosh, WI">
+
 
 											</div>
 
@@ -184,7 +193,14 @@ get_header();
 
 											<div class="zoomContainerLarge">
 
-												<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16MediumSquared.jpg" alt="Engine rebuild on a Mazdaspeed3 by Ardens Auto Oshkosh WI">
+												<img class="image zoomImage"
+							          srcset="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16-400.jpg 400w,
+							           /assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16-500.jpg 600w,
+							           /assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16-600.jpg 800w,
+							           /assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16MediumSquared.jpg 1200w"
+							          sizes="(min-width: 992px) 50vw"
+							           src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16MediumSquared.jpg"
+							           class="image" alt="Engine rebuild on a 2012 Mazdaspeed3 by Ardens Auto Oshkosh WI">
 
 											</div>
 
@@ -204,19 +220,19 @@ get_header();
 
 				<section class="CTA">
 
-					<?php get_template_part('includes/CTA'); ?>
+					<?php get_template_part('Includes/CTA'); ?>
 
 				</section>
 
 				<section class="map">
 
-					 <?php get_template_part('includes/map'); ?>
+					 <?php get_template_part('Includes/map'); ?>
 
 				</section>
 
 				<section class="feedback">
 
-					<?php get_template_part('includes/survey'); ?>
+					<?php get_template_part('Includes/survey'); ?>
 
 				</section>
 

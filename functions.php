@@ -64,7 +64,6 @@
 
 function ardensAutoResponsiveChildScripts(){
 	wp_enqueue_script('customJS', get_stylesheet_directory_uri() . '/JS/customJS.js');
-  wp_enqueue_script('rellaxJS', get_stylesheet_directory_uri() . '/JS/rellax.min.js');
 	// Enqueue Google Fonts for our site
 	wp_enqueue_script('ardensFonts', ardensAutoResponsiveChild_fonts_url());
 }

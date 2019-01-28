@@ -21,9 +21,8 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
-	<link rel="preload" href="/assets/scss/wp-content/themes/ardensAutoResponsiveChild/Assets/webfonts/fontawesome-all.css" as="style" onload="this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="/assets/scss/wp-content/themes/ardensAutoResponsiveChild/Assets/webfonts/fontawesome-all.css"></noscript>
-
+	<link href="/assets/scss/wp-content/themes/ardensAutoResponsiveChild/Assets/webfonts/fontawesome-all.css" rel="stylesheet">
+	
 	<link rel="preload" href="/assets/scss/wp-content/themes/ardensAutoResponsiveChild/CSS/formalize.css" as="style" onload="this.rel='stylesheet'">
 	<noscript><link rel="stylesheet" href="/assets/scss/wp-content/themes/ardensAutoResponsiveChild/CSS/formalize.css"></noscript>
 

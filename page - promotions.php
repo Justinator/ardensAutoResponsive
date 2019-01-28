@@ -144,7 +144,7 @@ get_header();
 
 				<section class="feedback">
 
-					<?php get_template_part('includes/survey'); ?>
+					<?php get_template_part('Includes/survey'); ?>
 
 				</section>
 

@@ -64,7 +64,15 @@ get_header();
 
 											<div class="zoomContainerLarge">
 
-												<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped.jpg">
+												<img class="image zoomImage"
+							          srcset="/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFront-400.jpg 400w,
+							           /assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFront-500.jpg 600w,
+							           /assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFront-600.jpg 800w,
+							           /assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped.jpg 1200w"
+							          sizes="(min-width: 992px) 50vw"
+							           src="/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped.jpg"
+							           class="image" alt="Jeep Cherokee custom suspension rebuild with lift kit by Arden's Auto Oshkosh, WI">
+
 
 											</div>
 
@@ -80,7 +88,14 @@ get_header();
 
 											<div class="zoomContainerLarge">
 
-												<img class="image zoomImage" src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16MediumSquared.jpg">
+												<img class="image zoomImage"
+							          srcset="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16-400.jpg 400w,
+							           /assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16-500.jpg 600w,
+							           /assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16-600.jpg 800w,
+							           /assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16MediumSquared.jpg 1200w"
+							          sizes="(min-width: 992px) 50vw"
+							           src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16MediumSquared.jpg"
+							           class="image" alt="Engine rebuild on a 2012 Mazdaspeed3 by Ardens Auto Oshkosh WI">
 
 											</div>
 
@@ -100,7 +115,7 @@ get_header();
 
 				<section class="feedback">
 
-					<?php get_template_part('includes/survey'); ?>
+					<?php get_template_part('Includes/survey'); ?>
 
 				</section>
 
@@ -111,7 +126,7 @@ get_header();
 		</div>
 
 	</div>
-	
+
 </div>
 
 <?php

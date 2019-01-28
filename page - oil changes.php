@@ -108,25 +108,25 @@ get_header();
 
 				<section id="servicesWrap">
 
-					<?php get_template_part('includes/services'); ?>
+					<?php get_template_part('Includes/services'); ?>
 
 				</section>
 
 				<section class="CTA">
 
-					<?php get_template_part('includes/CTA'); ?>
+					<?php get_template_part('Includes/CTA'); ?>
 
 				</section>
 
 				<section class="map">
 
-					 <?php get_template_part('includes/map'); ?>
+					 <?php get_template_part('Includes/map'); ?>
 
 				</section>
 
 				<section class="feedback">
 
-					<?php get_template_part('includes/survey'); ?>
+					<?php get_template_part('Includes/survey'); ?>
 
 				</section>
 
