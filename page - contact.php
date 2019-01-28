@@ -34,7 +34,7 @@ get_header();
 
 										<div class="heroHeading">
 
-											<h1 class="whiteText">Contact Arden's Automotive Hospital</h1>
+											<h1 class="whiteText centerText">Contact Arden's Automotive Hospital</h1>
 
 										</div>
 
@@ -60,7 +60,7 @@ get_header();
 								Have some questions that you still need help with? We're here to help.
 								</p>
 
-								<h3 class="redText">Call us at <a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a></h3>
+								<h3>Call us at <a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a></h3>
 
 								<p>Or fill out the form below and we'll get back to you as soon as we can!</p>
 
@@ -88,8 +88,8 @@ get_header();
 
 										Oshkosh, WI 54902</p></a>
 
-										<a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a>
-										
+										<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
+
 										<br>
 
 										<a class="plainLink" href="/customer-reviews/">Leave Us a Review</a>
@@ -108,11 +108,11 @@ get_header();
 
 				</section>
 
-		</main>
+			</main>
+
+		</div>
 
 	</div>
-
-</div>
 
 </div>
 <?php

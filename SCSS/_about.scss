@@ -29,6 +29,18 @@
 		width: 60%;
 	}
 }
+#ardensHistory{
+  @include breakpoint(smallScreen){
+		margin-top: 195px;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin-top: 80px;
+	}
+	@include breakpoint(tabletScreen){
+		margin-top: 150px;
+	}
+}
+
 .reviewHeading{
   @include breakpoint(smallScreen){
 		bottom: -120px;

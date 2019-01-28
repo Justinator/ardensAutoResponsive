@@ -50,8 +50,6 @@ get_header();
 
 				<section id="pageContent">
 
-				<div>
-
 				<section id ="reviewIntro">
 
 					<div class="navWidth flex-container centerAlignedContainer">
@@ -148,15 +146,14 @@ get_header();
 
 				</section>
 
-			</section>
+				</section>
+
+			</main>
 
 		</div>
 
-	</main>
-
 	</div>
 
-</div>
 </div>
 
 <?php

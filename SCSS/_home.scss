@@ -51,10 +51,10 @@
 }
 #ardensIntro{
 	@include breakpoint(smallScreen){
-		margin-top: 300px;
+		margin-top: 230px;
 	}
 	@include breakpoint(largeMobileScreen){
-		margin-top: 350px;
+		margin-top: 200px;
 	}
 	@include breakpoint(tabletScreen){
 		margin-top: 150px;

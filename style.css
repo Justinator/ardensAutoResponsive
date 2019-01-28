@@ -637,16 +637,6 @@ nav {
 
 /* 5.0 Footer Stylings -------------------------------------------*/
 .site-info {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: auto;
-  padding: 20px 0 20px 0;
-  text-align: center;
-  background: #fbf8f5;
-  list-style-type: none;
   border-bottom: 1px solid #c92b2c;
   background-color: #fbf8f5;
   background-image: url("/assets/scss/wp-content/uploads/2019/01/blizzard.png"); }
@@ -654,6 +644,30 @@ nav {
     .site-info {
       flex-direction: row;
       height: 75px; } }
+  .site-info ul {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 20px 0 20px 0;
+    list-style-type: none; }
+    @media (max-width: 600px) {
+      .site-info ul {
+        flex-direction: column; } }
+    @media (min-width: 600px) {
+      .site-info ul {
+        flex-direction: column; } }
+    @media (min-width: 768px) {
+      .site-info ul {
+        flex-direction: row; } }
+  @media (max-width: 600px) {
+    .site-info li {
+      padding: 10px 0; } }
+  @media (min-width: 600px) {
+    .site-info li {
+      padding: 10px 0; } }
+  @media (min-width: 768px) {
+    .site-info li {
+      padding: 0; } }
 
 .site-footer {
   position: relative;
@@ -686,11 +700,21 @@ nav {
   position: relative;
   color: #c92b2c;
   text-decoration: none;
-  padding: 10px 20px 10px 20px;
-  margin: 10px 0 10px 0;
   transition: .3s ease all;
   font-size: 20px;
   font-weight: 700; }
+  @media (max-width: 600px) {
+    .footerLink {
+      padding: 0;
+      margin: 0; } }
+  @media (min-width: 600px) {
+    .footerLink {
+      padding: 0;
+      margin: 0; } }
+  @media (min-width: 768px) {
+    .footerLink {
+      padding: 10px 20px 10px 20px;
+      margin: 10px 0 10px 0; } }
   .footerLink:after {
     position: absolute;
     height: 0;
@@ -726,6 +750,12 @@ nav {
   font-size: 12px; }
   #copyright p {
     margin-block-start: 1em; }
+  @media (max-width: 600px) {
+    #copyright {
+      font-size: 14px; } }
+  @media (max-width: 320px) {
+    #copyright {
+      font-size: 12px; } }
   @media (min-width: 992px) {
     #copyright {
       flex-direction: row;
@@ -735,12 +765,6 @@ nav {
     color: #FFFFFF; }
     #copyright a:hover {
       color: #E6E6E6; }
-  @media (max-width: 600px) {
-    #copyright {
-      font-size: 16px; } }
-  @media (max-width: 320px) {
-    #copyright {
-      font-size: 14px; } }
 
 #footerIcon {
   font-size: 12px; }
@@ -848,6 +872,9 @@ h6 {
     content: "";
     left: 0;
     bottom: -20px; }
+
+address {
+  font-style: inherit; }
 
 /* 7.0 Button Stylings ---------------------------------------*/
 .redLink {
@@ -1056,10 +1083,10 @@ body {
 
 @media (max-width: 600px) {
   #ardensIntro {
-    margin-top: 300px; } }
+    margin-top: 230px; } }
 @media (min-width: 600px) {
   #ardensIntro {
-    margin-top: 350px; } }
+    margin-top: 200px; } }
 @media (min-width: 768px) {
   #ardensIntro {
     margin-top: 150px; } }
@@ -1724,6 +1751,13 @@ template {
   .tireHeading {
     bottom: -55px !important; } }
 
+@media (max-width: 600px) {
+  #tiresOverview {
+    margin-top: -50px; } }
+@media (min-width: 600px) {
+  #tiresOverview {
+    margin-top: 0; } }
+
 /* 13.0 Contact Page stylings -------------------------------------------*/
 @media (max-width: 600px) {
   #contactContent {
@@ -1860,6 +1894,16 @@ template {
   @media (min-width: 1250px) {
     .aboutHeading {
       width: 60%; } }
+
+@media (max-width: 600px) {
+  #ardensHistory {
+    margin-top: 195px; } }
+@media (min-width: 600px) {
+  #ardensHistory {
+    margin-top: 80px; } }
+@media (min-width: 768px) {
+  #ardensHistory {
+    margin-top: 150px; } }
 
 @media (max-width: 600px) {
   .reviewHeading {

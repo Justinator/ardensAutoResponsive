@@ -1,15 +1,5 @@
 /* 5.0 Footer Stylings -------------------------------------------*/
 .site-info{
-	display: flex;
-	align-content: center;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	height: auto;
-	padding: 20px 0 20px 0;
-	text-align: center;
-	background: $secondaryColor;
-	list-style-type: none;
 	border-bottom: 1px solid $primaryColor;
 	background-color: #fbf8f5;
 	background-image: url("/assets/scss/wp-content/uploads/2019/01/blizzard.png");
@@ -17,6 +7,33 @@
       flex-direction: row;
 		  height: 75px;
     }
+		ul{
+			display: flex;
+			justify-content: center;
+			height: auto;
+			padding: 20px 0 20px 0;
+			list-style-type: none;
+			@include breakpoint(smallScreen){
+				flex-direction: column;
+			}
+			@include breakpoint(largeMobileScreen){
+				flex-direction: column;
+			}
+			@include breakpoint(tabletScreen){
+				flex-direction: row;
+			}
+		}
+		li{
+			@include breakpoint(smallScreen){
+				padding: 10px 0;
+			}
+			@include breakpoint(largeMobileScreen){
+				padding: 10px 0;
+			}
+			@include breakpoint(tabletScreen){
+				padding: 0;
+			}
+		}
 }
 
 .site-footer{
@@ -53,11 +70,20 @@
 	position: relative;
 	color: $primaryColor;
 	text-decoration: none;
-	padding: 10px 20px 10px 20px;
-	margin: 10px 0 10px 0;
 	transition: .3s ease all;
 	font-size: 20px;
 	font-weight: 700;
+		@include breakpoint(smallScreen){
+			padding: 0;
+			margin: 0;
+		}
+		@include breakpoint(largeMobileScreen){
+			padding: 0;
+			margin: 0;
+		}@include breakpoint(tabletScreen){
+			padding: 10px 20px 10px 20px;
+			margin: 10px 0 10px 0;
+		}
     &:after{
       position: absolute;
     	height: 0;
@@ -98,6 +124,12 @@
 		p{
 			margin-block-start: 1em;
 		}
+		@include breakpoint(smallScreen){
+			font-size: 14px;
+		}
+		@include breakpoint(tinyScreen){
+			font-size: 12px;
+		}
     @include breakpoint(laptopScreen){
       flex-direction: row;
 			font-size: 16px;
@@ -109,12 +141,6 @@
 					color: $lightGrey;
 				}
       }
-		@include breakpoint(smallScreen){
-			font-size: 16px;
-		}
-		@include breakpoint(tinyScreen){
-			font-size: 14px;
-		}
 }
 #footerIcon{
 	font-size: 12px;

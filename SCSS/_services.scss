@@ -115,3 +115,11 @@
     bottom: -55px !important;
   }
 }
+#tiresOverview{
+  @include breakpoint(smallScreen){
+    margin-top: -50px;
+  }
+  @include breakpoint(largeMobileScreen){
+    margin-top: 0;
+  }
+}
