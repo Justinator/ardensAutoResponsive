@@ -60,6 +60,12 @@ get_header();
 
 								<div class="textWrap">
 
+									<div class="centerText">
+										
+										<img src="/assets/scss/wp-content/uploads/2019/01/ArdensLogoSmall.png" class="smallLogo">
+
+									</div>
+
 									<h3 class="centerText">Oil Change Special</h3>
 
 									<p>New oil filter and five quarts of oil</p>
@@ -79,6 +85,12 @@ get_header();
 							<div class="couponBox">
 
 								<div class="textWrap">
+
+									<div class="centerText">
+										
+										<img src="/assets/scss/wp-content/uploads/2019/01/ArdensLogoSmall.png" class="smallLogo">
+
+									</div>
 
 									<h3 class="centerText">Brake Work Only</h3>
 
@@ -102,6 +114,12 @@ get_header();
 
 								<div class="textWrap">
 
+									<div class="centerText">
+										
+										<img src="/assets/scss/wp-content/uploads/2019/01/ArdensLogoSmall.png" class="smallLogo">
+
+									</div>
+
 									<h3 class="centerText">Oil Change & Tire Rotation</h3>
 
 									<h4>$10.00 Off</h4>
@@ -119,6 +137,12 @@ get_header();
 							<div class="couponBox">
 
 								<div class="textWrap">
+
+									<div class="centerText">
+										
+										<img src="/assets/scss/wp-content/uploads/2019/01/ArdensLogoSmall.png" class="smallLogo">
+
+									</div>
 
 									<h3 class="centerText">Air Conditioning Service</h3>
 

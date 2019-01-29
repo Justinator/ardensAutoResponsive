@@ -1718,6 +1718,10 @@ template {
     .shortHeading {
       width: 60%; } }
 
+.smallLogo {
+  width: 100px;
+  height: auto; }
+
 /* 15.0 About Pages -------------------------------------------*/
 .aboutHero {
   background-image: url("/assets/scss/wp-content/uploads/2019/01/alexWorkingOnATransmissionCropped.jpg"); }
@@ -1805,4 +1809,4 @@ template {
 .mazdaHero {
   background-image: url("/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Cropped.jpg"); }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style-dev.css.map */
