@@ -61,7 +61,7 @@ get_header();
 								<div class="textWrap">
 
 									<div class="centerText">
-										
+
 										<img src="/assets/scss/wp-content/uploads/2019/01/ArdensLogoSmall.png" class="smallLogo">
 
 									</div>
@@ -72,7 +72,7 @@ get_header();
 
 									<h4>$24.99</h4>
 
-									<p class="terms">Applies for most vehicles. Some restrictions apply for vehicles with special filter or oil requirements.</p>
+									<p class="terms">Applies for most vehicles. Some restrictions apply for vehicles with special filter or oil requirements. Limit one coupon per customer.</p>
 
 								</div>
 
@@ -87,7 +87,7 @@ get_header();
 								<div class="textWrap">
 
 									<div class="centerText">
-										
+
 										<img src="/assets/scss/wp-content/uploads/2019/01/ArdensLogoSmall.png" class="smallLogo">
 
 									</div>
@@ -96,7 +96,7 @@ get_header();
 
 									<h4>10% Off all parts & labor</h4>
 
-									<p class="terms">Applies for most vehicles. Some restrictions apply for vehicles with special brake requirements.</p>
+									<p class="terms">Applies for most vehicles. Some restrictions apply for vehicles with special brake requirements. Limit one coupon per customer.</p>
 
 								</div>
 
@@ -115,7 +115,7 @@ get_header();
 								<div class="textWrap">
 
 									<div class="centerText">
-										
+
 										<img src="/assets/scss/wp-content/uploads/2019/01/ArdensLogoSmall.png" class="smallLogo">
 
 									</div>
@@ -124,7 +124,7 @@ get_header();
 
 									<h4>$10.00 Off</h4>
 
-									<p class="terms">Applies for most vehicles. Some restrictions apply.</p>
+									<p class="terms">Applies for most vehicles. Some restrictions apply. Limit one coupon per customer.</p>
 
 								</div>
 
@@ -139,7 +139,7 @@ get_header();
 								<div class="textWrap">
 
 									<div class="centerText">
-										
+
 										<img src="/assets/scss/wp-content/uploads/2019/01/ArdensLogoSmall.png" class="smallLogo">
 
 									</div>
@@ -154,7 +154,7 @@ get_header();
 
 									</p>
 
-									<p class="terms">Applies for most vehicles. Some restrictions apply for vehicles with special brake requirements.</p>
+									<p class="terms">Applies for most vehicles. Some restrictions apply for vehicles with special AC requirements. Limit one coupon per customer.</p>
 
 								</div>
 

@@ -56,12 +56,28 @@
   padding: 25px 0 0 10px;
 }
 #serviceBlock1{
-  margin-top: 100px;
   background-image: url('/assets/scss/wp-content/uploads/2019/01/underHoodServices.jpg');
+  @include breakpoint(smallScreen){
+    margin-top: 25px;
+  }
+  @include breakpoint(largeMobileScreen){
+    margin-top: 25px;
+  }
+  @include breakpoint(laptopScreen){
+    margin-top: 100px;
+  }
 }
 #serviceBlock2{
-  margin-top: 100px;
   background-image: url('/assets/scss/wp-content/uploads/2019/01/underCarServices.jpg');
+  @include breakpoint(smallScreen){
+    margin-top: 25px;
+  }
+  @include breakpoint(largeMobileScreen){
+    margin-top: 25px;
+  }
+  @include breakpoint(laptopScreen){
+    margin-top: 100px;
+  }
 }
 .serviceBlock{
   background-size: cover;

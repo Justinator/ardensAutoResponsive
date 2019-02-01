@@ -60,9 +60,9 @@ get_header();
 								Have some questions that you still need help with? We're here to help.
 								</p>
 
-								<h3>Call us at <a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a></h3>
+								<p>Fill out the form below and we'll get back to you as soon as we can!</p>
 
-								<p>Or fill out the form below and we'll get back to you as soon as we can!</p>
+								<h3>To schedule an appointment call us at <a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a></h3>
 
 								<?php echo do_shortcode('[caldera_form id="CF5c3c73e0407dd"]'); ?>
 

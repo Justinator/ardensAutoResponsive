@@ -76,7 +76,6 @@ get_header();
 									<li>Inspect and replace serpentine belts (preventing damage to other accessories)</li>
 									<li>Check and change oil</li>
 									<li>Check and replace the battery</li>
-									<li>Check and replace batteries</li>
 									<li>Check and replace cabin air filters</li>
 									<li>Check and replace your engine air filter</li>
 									<li>Check and replace spark plugs</li>
@@ -86,7 +85,7 @@ get_header();
 								</ul>
 
 								<p>
-									By following your vehicle’s owner’s manual and having your vehicle inspected and maintained regularly, you can greatly reduce problems and save money in the long
+									By following your vehicle owner’s manual and having your vehicle inspected and maintained regularly, you can greatly reduce problems and save money in the long
 									run. Call Arden’s at <a href="tel:(920)203-3694" class="plainLink">(920) 203-3694</a> to get started with your regular preventative maintenance plan.
 								</p>
 
