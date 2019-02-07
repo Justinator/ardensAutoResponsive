@@ -64,9 +64,9 @@ get_header();
 									help others find great automotive care in Oshkosh.
 								</p>
 
-								<a href="https://www.facebook.com/pg/ardensautohospital/reviews/?ref=page_internal" target="_blank"><button class="redButton">Facebook Review</button></a>
+								<a href="https://www.facebook.com/pg/ardensautohospital/reviews/?ref=page_internal" target="_blank" rel="noreferrer" class="redButton">Facebook Review</a>
 
-								<a href="https://www.google.com/search?q=arden%27s+automotive+hospital&rlz=1C1CHBD_enUS813US813&oq=ardens+auto&aqs=chrome.4.69i57j69i60l3j0j69i65.9568j0j1&sourceid=chrome&ie=UTF-8#lrd=0x8803ebf8a244848f:0xab246929a6800b92,3,,," target="_blank"><button class="redButton">Google Review</button></a>
+								<a href="https://www.google.com/search?q=arden%27s+automotive+hospital&rlz=1C1CHBD_enUS813US813&oq=ardens+auto&aqs=chrome.4.69i57j69i60l3j0j69i65.9568j0j1&sourceid=chrome&ie=UTF-8#lrd=0x8803ebf8a244848f:0xab246929a6800b92,3,,," target="_blank" rel="noreferrer" class="redButton">Google Review</a>
 
 							</div>
 

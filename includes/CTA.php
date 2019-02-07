@@ -15,7 +15,7 @@
 
           <div class="centeredButton">
 
-            <a href="/contact/"><button class="whiteButton">Contact Arden's</button></a>
+            <a href="/contact/" class="whiteButton" role="link">Contact Arden's</a>
 
           </div>
 

@@ -71,7 +71,7 @@ get_header();
 									on the road faster.
 								</p>
 
-								<a href="/about/"><button class="redButton">Learn More About Arden's</button></a>
+								<a href="/about/" class="redButton" role="link">Learn More About Arden's</a>
 
 							</div>
 
