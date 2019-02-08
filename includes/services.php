@@ -149,7 +149,7 @@
 
   <div class="centerButton">
 
-    <a href="/auto-repair-services/" id="servicesButton" class="redButton" role="link">View all auto repair services</a>
+    <a href="/auto-repair-services/" id="servicesButton" class="redButton" role="link">View auto repair services</a>
 
   </div>
 
