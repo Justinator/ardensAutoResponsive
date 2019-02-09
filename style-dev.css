@@ -761,7 +761,7 @@ address {
   border: 2px solid #c92b2c;
   border-radius: 10px;
   background: #c92b2c;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 20px;
   color: #FFFFFF !important;
   text-shadow: 0 1px 1px black;
   text-decoration: none;
@@ -780,7 +780,7 @@ address {
   z-index: 1;
   border: 2px solid #c92b2c;
   border-radius: 30px;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 20px;
   color: #c92b2c;
   margin-bottom: 10px;
   transition: .3s ease all;
@@ -798,7 +798,7 @@ address {
   border: 2px solid #FFFFFF;
   border-radius: 10px;
   background: #FFFFFF;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 20px;
   color: #c92b2c;
   transition: .3s ease all;
   cursor: pointer;
@@ -815,7 +815,7 @@ address {
   border: 2px solid #FFFFFF;
   border-radius: 10px;
   background: #FFFFFF;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px;
   color: #c92b2c;
   transition: .3s ease all;
   cursor: pointer;
@@ -922,6 +922,31 @@ a:focus {
 .iconBlock {
   display: flex;
   flex-direction: column; }
+
+.smallIcon {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden; }
+
+.icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  stroke-width: 0;
+  stroke: #FFFFFF;
+  fill: #FFFFFF; }
+
+.mediumIcon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  stroke-width: 0;
+  stroke: #FFFFFF;
+  fill: #FFFFFF; }
+
+.rotateIcon {
+  transform: rotate(90deg); }
 
 /* 10.0 Homepage stylings -------------------------------------------*/
 .heroHeadingWrap {
@@ -1210,19 +1235,25 @@ a:focus {
   text-decoration: none; }
 
 .survey {
-  padding: 20px 10px; }
+  padding: 40px 10px 20px 10px; }
 
 .surveyClose {
   position: absolute;
   right: 20px;
   padding: 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
 
 .surveyOpen {
   position: fixed;
   z-index: 9999;
   transform: translateX(0);
   transition: .3s ease all; }
+
+.marginRight {
+  margin-right: 5px; }
 
 #fld_1177625Label {
   font-size: 14px;

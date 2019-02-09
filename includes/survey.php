@@ -28,7 +28,7 @@
 
   <div class="surveyContent">
 
-    <button class="redButton surveyClose ">Close <svg class="smallIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <button class="redButton surveyClose"><span class="marginRight">Close </span><svg class="smallIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
       <defs>
 
