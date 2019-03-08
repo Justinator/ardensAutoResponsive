@@ -766,6 +766,10 @@ address {
   text-shadow: 0 1px 1px black;
   text-decoration: none;
   width: max-content;
+  width: -moz-max-content;
+  width: -ms-max-content;
+  width: -webkit-max-content;
+  width: -o-max-content;
   margin-bottom: 10px;
   transition: .2s ease all;
   cursor: pointer; }
@@ -786,6 +790,10 @@ address {
   transition: .3s ease all;
   text-decoration: none;
   width: max-content;
+  width: -moz-max-content;
+  width: -ms-max-content;
+  width: -webkit-max-content;
+  width: -o-max-content;
   cursor: pointer; }
   .redButtonReverse:hover {
     background: #c92b2c;
@@ -803,7 +811,11 @@ address {
   transition: .3s ease all;
   cursor: pointer;
   text-decoration: none;
-  width: max-content; }
+  width: max-content;
+  width: -moz-max-content;
+  width: -ms-max-content;
+  width: -webkit-max-content;
+  width: -o-max-content; }
   .whiteButton:hover {
     background: rgba(0, 0, 0, 0);
     color: #FFFFFF;

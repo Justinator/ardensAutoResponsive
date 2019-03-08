@@ -18,6 +18,10 @@
 	text-shadow: 0 1px 1px rgba(0,0,0,1);
   text-decoration: none;
   width: max-content;
+  width: -moz-max-content;
+  width: -ms-max-content;
+  width: -webkit-max-content;
+  width: -o-max-content;
 	margin-bottom: 10px;
 	transition: .2s ease all;
 	cursor: pointer;
@@ -39,6 +43,10 @@
 	transition: .3s ease all;
   text-decoration: none;
   width: max-content;
+  width: -moz-max-content;
+  width: -ms-max-content;
+  width: -webkit-max-content;
+  width: -o-max-content;
 	cursor: pointer;
     &:hover{
       background: $primaryColor;
@@ -58,6 +66,10 @@
 	cursor: pointer;
   text-decoration: none;
   width: max-content;
+  width: -moz-max-content;
+  width: -ms-max-content;
+  width: -webkit-max-content;
+  width: -o-max-content;
     &:hover{
       background: $transparent;
     	color: $white;
