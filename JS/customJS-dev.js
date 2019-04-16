@@ -1,6 +1,6 @@
 // Basic fade transition example that barba.js provides, this looks super nice already!!!
 $(function() {
-  console.log('%c Justin Parsons','background: red; color: white; padding: 5px 10px;');
+  console.log('Justin Parsons','background: red; color: white; padding: 5px 10px;');
   var FadeTransition = Barba.BaseTransition.extend({
   start: function() {
     /**
@@ -84,6 +84,10 @@ Barba.Pjax.getTransition = function() {
               	$(".surveyWrapper").removeClass("surveyOpen");
           });
       });
+      // detect IE and display a warning message to users
+      if (navigator.appName == 'Microsoft Internet Explorer' || !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/))) {
+        document.write('<p style="text-align: center; position: relative; z-index: 99999; background-color: #C92B2C; color: #ffffff;">You are using a browser no longer supported by Microsoft. For the best and most secure viewing experience, please use a modern browser like <a href="https://www.google.com/chrome/" target="blank" rel="noreferrer" style="color: #ffffff;">Chrome</a> or <a href="https://www.mozilla.org/en-US/firefox/new/" target="blank" rel="noreferrer" style="color: #ffffff;">Firefox</a>.</p>')
+      }      
     }
 });
 
